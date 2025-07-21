@@ -6,10 +6,10 @@
     "authors": [
         {
             "name": "Priscilla Barbosa de Oliveira",
-            "email": "priscillabarbosa@outlook.com"
+            "email": "priscillabarbosa2014@gmail.com"
             }
     ],
-    "require": {
+    "require": { 
         "php": ">=7.4",
         "vlucas/phpdotenv": "^5.0",
         "phpmailer/phpmailer": "^6.0",
