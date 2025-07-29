@@ -1,23 +1,18 @@
+?php
+// ================================
+// ARQUIVO: public/index.php
+// ================================
 <?php
-// index.php - Ponto de entrada da aplicação
-session_start();
+require_once '../src/Core/Router.php';
+require_once '../src/Core/Database.php';
+require_once '../src/Controllers/HomeController.php';
 
-// Configurações
-error_reporting(E_ALL);
-init_set('display_errors', 1);
+// Inicializar o roteador
+$router = new Router();
 
-//Constantes
-define('ROOT_PATH', dirname(__FILE__));
-define('BASE_URL', 'http://localhost:8080');
-define('VIEWS_PATH', ROOT_PATH . '/views');
+// Definir rotas
+$router->get('/', 'HomeController@index');
+$router->get('/home', 'HomeController@index');
 
-//Autoloader ou includes básicos
-require_once 'config/database.php';
-require_once 'config/config.php';
-
-// Sistema de roteamento
-$controller = isset($_GET['controller']) ? $_GET['controller'] : 'home';
-$action = isset($_GET['action']) ? $_GET['action'] : 'index';
-
-// Sanitizar entrada
-$controller = isset($_GET['controller']) ? $_GET['controller'] : 'home';
+// Processar a requisição
+$router->dispatch();
