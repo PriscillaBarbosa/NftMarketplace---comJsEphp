@@ -1,38 +1,7 @@
-/* Variáveis CSS */
-:root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --dark-bg: #1f2937;
-    --light-bg: #f9fafb;
-    --text-dark: #111827;
-    --text-light: #6b7280;
-    --border-color: #e5e7eb;
-    --success-color: #10b981;
-    --error-color: #ef4444;
-}
-
-/* Reset e Base */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    background-color: red;
 }
 
-body {
-    font-family: 'Inter', -apple-system, sans-serif;
-    line-height: 1.6;
-    color: var(--text-dark);
-    background: var(--light-bg);
-}
-
-/* Layout Principal */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.main-content {
-    min-height: calc(100vh - 160px);
-    padding: 2rem 0;
-}

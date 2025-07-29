@@ -1,33 +1,23 @@
 <?php
-require_once '../vendor/autoload.php';
-
-// Carregar variáveis de ambiente
-$dotenv = Dotenv\Dotenv::createImmutable('../');
-$dotenv->load();
-
-// Iniciar sessão
+// index.php - Ponto de entrada da aplicação
 session_start();
 
-// Importar classes principais
-use App\Core\Router;
+// Configurações
+error_reporting(E_ALL);
+init_set('display_errors', 1);
 
-// Criar roteador
-$router = new Router();
+//Constantes
+define('ROOT_PATH', dirname(__FILE__));
+define('BASE_URL', 'http://localhost:8080');
+define('VIEWS_PATH', ROOT_PATH . '/views');
 
-// Definir rotas
-$router->get('/', 'HomeController@index');
-$router->get('/login', 'AuthController@showLogin');
-$router->post('/login', 'AuthController@login');
-$router->get('/register', 'AuthController@showRegister');
-$router->post('/register', 'AuthController@register');
+//Autoloader ou includes básicos
+require_once 'config/database.php';
+require_once 'config/config.php';
 
-// Rotas protegidas
-$router->middleware('auth')->get('/profile', 'UserController@profile');
-$router->middleware('auth')->get('/nft/create', 'NFTController@create');
+// Sistema de roteamento
+$controller = isset($_GET['controller']) ? $_GET['controller'] : 'home';
+$action = isset($_GET['action']) ? $_GET['action'] : 'index';
 
-// Rotas admin
-$router->middleware(['auth', 'admin'])->get('/admin', 'DashboardController@index');
-
-// Executar rota
-$router->dispatch();
-?>
+// Sanitizar entrada
+$controller = isset($_GET['controller']) ? $_GET['controller'] : 'home';
