@@ -1,6 +1,9 @@
-/ ================================
-// ARQUIVO: src/Core/Database.php
-// ================================
+<!--
+================================
+ARQUIVO: src/Core/Database.php
+================================
+-->
+
 <?php
 class Database {
     private static $instance = null;

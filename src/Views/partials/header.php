@@ -1,6 +1,9 @@
-!-- ================================ -->
-<!-- ARQUIVO: src/Views/partials/header.php -->
-<!-- ================================ -->
+<!-- 
+================================ 
+ARQUIVO: src/Views/partials/header.php
+================================ 
+-->
+
 <nav class="navbar navbar-expand-lg navbar-dark gradient-bg">
     <div class="container">
         <a class="navbar-brand" href="/">

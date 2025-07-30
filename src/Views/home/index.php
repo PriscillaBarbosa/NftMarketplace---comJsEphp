@@ -1,6 +1,8 @@
-<!-- ================================ -->
-<!-- ARQUIVO: src/Views/home/index.php -->
-<!-- ================================ -->
+<!--
+================================ 
+ARQUIVO: src/Views/home/index.php
+================================ 
+-->
 <!-- Hero Section -->
 <section class="hero-section gradient-bg text-white">
     <div class="container">

@@ -1,6 +1,9 @@
-/ ================================
-// ARQUIVO: src/Controllers/HomeController.php
-// ================================
+<!-- 
+================================
+ARQUIVO: src/Controllers/HomeController.php
+================================
+-->
+
 <?php
 class HomeController {
     public function index() {
@@ -51,13 +54,18 @@ class HomeController {
     }
     
     private function render($view, $data = []) {
-        extract($data);
-        $viewPath = "../src/Views/{$view}.php";
-        
-        if (file_exists($viewPath)) {
-            include $viewPath;
-        } else {
-            echo "View não encontrada: {$view}";
-        }
+    extract($data);
+    
+    // Definir qual view será incluída no layout
+    $view = $view; // já está correto
+    
+    // Incluir o layout principal que contém o CSS
+    $layoutPath = "../src/Views/layouts/app.php";
+    
+    if (file_exists($layoutPath)) {
+        include $layoutPath;
+    } else {
+        echo "Layout não encontrado: {$layoutPath}";
+    }
     }
 }

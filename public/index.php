@@ -1,8 +1,22 @@
-?php
-// ================================
-// ARQUIVO: public/index.php
-// ================================
+<!--
+================================
+ARQUIVO: public/index.php
+================================
+-->
+
 <?php
+
+// Servir arquivos estáticos para o servidor embutido do PHP
+if (php_sapi_name() === 'cli-server') {
+    $url = parse_url($_SERVER['REQUEST_URI']);
+    $file = __DIR__ . $url['path'];
+    
+    // Se o arquivo existe (CSS, JS, imagens), serve diretamente
+    if (is_file($file)) {
+        return false;
+    }
+}
+
 require_once '../src/Core/Router.php';
 require_once '../src/Core/Database.php';
 require_once '../src/Controllers/HomeController.php';
