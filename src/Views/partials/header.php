@@ -8,8 +8,10 @@ ARQUIVO: src/Views/partials/header.php
     <div class="container">
         <a class="navbar-brand" href="/">
             <img src="assets/img/mascote/mascote-versao1.svg" alt="" srcset="">
-            NFT Marketplace
         </a>
+        <div class="header-logo-titulo d-flex">
+            <h1 class="header-titulo mb-0">Lobix</h1>
+        </div>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
