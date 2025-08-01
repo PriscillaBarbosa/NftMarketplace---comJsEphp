@@ -7,7 +7,7 @@ ARQUIVO: src/Views/partials/header.php
 <nav class="navbar navbar-expand-lg navbar-dark gradient-bg">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <i class="fas fa-cube me-2"></i>
+            <img src="assets/img/mascote/mascote-versao1.svg" alt="" srcset="">
             NFT Marketplace
         </a>
         

@@ -1,14 +1,16 @@
+@import url(/./public/assets/css/_header.css);
+
 /* Variáveis CSS */
 :root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --dark-bg: #1f2937;
-    --light-bg: #f9fafb;
-    --text-dark: #111827;
-    --text-light: #6b7280;
-    --border-color: #e5e7eb;
-    --success-color: #10b981;
-    --error-color: #ef4444;
+    --primary-color: #4f46e5;
+    --secondary-color: #a78bfa;
+    --dark-bg: #121212;
+    --light-bg: #f3f4f6;
+    --text-dark: #0f172a;
+    --text-light: #94a3b8;
+    --border-color: #d1d5db;
+    --success-color: #34d399;
+    --error-color: #f87171;
 }
 
 /* Reset e Base */
@@ -22,7 +24,7 @@ body {
     font-family: 'Inter', -apple-system, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background: var(--light-bg);
+    background: var(--fundo-header);
 }
 
 /* Layout Principal */
