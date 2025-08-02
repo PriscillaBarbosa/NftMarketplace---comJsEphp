@@ -1,19 +1,7 @@
-@import url(/./public/assets/css/_variaveis.css);
-@import url(/./public/assets/css/_app.css);
-@import url(/./public/assets/css/_header.css);
-
-/* Variáveis CSS */
-:root {
-    --primary-color: #4f46e5;
-    --secondary-color: #a78bfa;
-    --dark-bg: #121212;
-    --light-bg: #f3f4f6;
-    --text-dark: #0f172a;
-    --text-light: #94a3b8;
-    --border-color: #d1d5db;
-    --success-color: #34d399;
-    --error-color: #f87171;
-}
+@import url(_variaveis.css);
+@import url(_app.css);
+@import url(_header.css);
+@import url(_page-home.css);
 
 /* Reset e Base */
 * {

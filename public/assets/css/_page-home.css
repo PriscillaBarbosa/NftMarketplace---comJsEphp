@@ -1,0 +1,55 @@
+.hero-section {
+    background: var(--fundo-bg-gradiente);
+
+    .hero-boxmin {
+        border: 1px solid red;
+
+        .mascote1-hero {
+            width: 80px;
+            height: 80px;
+        }
+
+        .hero-mascote-nome {
+            background: var(--fundo-bg-titulo);
+            color: var(--texto-destaque);
+            font-family: var(--fonte-textos);
+            border-radius: 80px;
+            width: 45%;
+            height: 1.8rem;
+            align-content: center;
+            border: 1px solid var(--borda-destaque);
+
+        .mascote-texto {
+            margin: 0;
+            font-size: .7rem;
+            text-align: center;
+        }
+    }
+}
+
+.hero-boxmin-chamada {
+
+     border: 1px solid red;
+
+        .hero-chamada {
+            color: var(--texto-cor-principal);
+            font-family: var(--fonte-titulos);
+            font-size: 2rem;
+            margin-right: 11rem;
+        }
+
+        .hero-chamada-gradiente {
+            background: var(--fundo-tx-gradiente);
+            font-family: var(--fonte-titulos);
+            font-size: 2rem;
+            background-clip: text;
+
+            .chamada-gradiente-texto {
+                color: transparent;
+            }
+        }
+
+    }
+}
+
+ 

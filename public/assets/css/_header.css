@@ -1,6 +1,21 @@
-h2.header-titulo {
-    margin-top: 1rem !important;
-    line-height: 0 !important;
-    font-weight: 600 !important;
-    font-size: 1rem !important;
+
+.navbar {
+    background: var(--fundo-bg-gradiente);
+
+    .header-titulo,
+    .navbar-nav {
+    color: var(--texto-cor-principal);
+    font-family: var(--fonte-titulos);
+    }
+
+    .simbolo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-link {
+        font-size: .6rem;
+        color: var(--texto-cor-principal);
+    }
 }
+

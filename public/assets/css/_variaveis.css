@@ -1,5 +1,14 @@
+/******variaveis de cor******/
 
 :root {
+
+    --fundo-bg-gradiente: linear-gradient(to right, #0F172B, #0F172B 50%, #1C398E);
+    --fundo-bg-titulo: #0b3b32;
+    --fundo-tx-gradiente: linear-gradient(to right, #05DF72, #2B7FFF);
+    --texto-cor-principal: #ffff;
+    --texto-destaque: #05df72;
+    --borda-destaque: #05df72;
+    
     --fundo-bg:#0d0d2b;
     --fundo-header: #0a0a0f;
     --fundo-sections: #1c1c1c;
@@ -10,4 +19,10 @@
     --button-secondary: #6a0dad;
     --button-hover: #3c6ef3;
     --border-cards: #2f2f3a;
+
+
+/******variaveis de texto******/
+    --fonte-titulos: 'Michroma', sans-serif;
+    --fonte-textos: 'Inter', sans-serif;
+
 }

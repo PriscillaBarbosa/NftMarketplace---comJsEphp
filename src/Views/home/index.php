@@ -4,18 +4,29 @@ ARQUIVO: src/Views/home/index.php
 ================================ 
 -->
 <!-- Hero Section -->
-<section class="hero-section gradient-bg text-white">
-    <div class="container">
+<section class="hero-section px-5">
+    <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h1 class="display-4 fw-bold mb-4">
-                    Descubra, Colecione e Venda
-                    <span class="text-warning">NFTs Extraordinários</span>
-                </h1>
-                <p class="lead mb-4">
-                    O maior marketplace de NFTs do Brasil. Compre, venda e descubra arte digital única.
-                </p>
-                <div class="d-flex gap-3">
+                <div class="hero-box">
+                    <div class="hero-boxmin d-flex justify-content-end align-items-center">
+                        <div class="hero-box-title">
+                            <img src="assets/img/mascote/mascote-versao1.svg" alt="Mascote" class="mascote1-hero">    
+                        </div>
+                        <div class="hero-mascote-nome">
+                            <p class="mascote-texto d-flex justify-content-center">MEET SHIBU - NOSSO MASCOTE</p>
+                        </div>
+                    </div>
+                    <div class="hero-boxmin-chamada d-flex flex-column justify-content-end align-items-end">
+                        <p class="hero-chamada mb-0">A melhor</p>
+                        <div class="hero-chamada-gradiente mb-0">
+                            <p class="chamada-gradiente-texto mb-0">Coleção de NFT's</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!--<div class="d-flex gap-3">
                     <a href="/nfts" class="btn btn-primary-custom btn-lg">
                         <i class="fas fa-rocket me-2"></i>
                         Explorar NFTs
@@ -24,9 +35,9 @@ ARQUIVO: src/Views/home/index.php
                         <i class="fas fa-paint-brush me-2"></i>
                         Criar NFT
                     </a>
-                </div>
+                </div>-->
             </div>
-            <div class="col-lg-6 text-center">
+            <!--<div class="col-lg-6 text-center">
                 <div class="position-relative">
                     <img src="https://via.placeholder.com/500x400?text=NFT+Hero+Image" 
                          alt="NFT Hero" 
@@ -37,7 +48,7 @@ ARQUIVO: src/Views/home/index.php
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
