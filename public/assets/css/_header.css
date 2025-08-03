@@ -1,0 +1,21 @@
+
+.navbar {
+    background: var(--fundo-bg-gradiente);
+
+    .header-titulo,
+    .navbar-nav {
+    color: var(--texto-cor-principal);
+    font-family: var(--fonte-titulos);
+    }
+
+    .simbolo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-link {
+        font-size: .6rem;
+        color: var(--texto-cor-principal);
+    }
+}
+

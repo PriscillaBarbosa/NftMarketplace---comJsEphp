@@ -1,15 +1,9 @@
-/* Variáveis CSS */
-:root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --dark-bg: #1f2937;
-    --light-bg: #f9fafb;
-    --text-dark: #111827;
-    --text-light: #6b7280;
-    --border-color: #e5e7eb;
-    --success-color: #10b981;
-    --error-color: #ef4444;
-}
+@import url(_variaveis.css);
+@import url(_app.css);
+@import url(_header.css);
+@import url(_cube3d.css);
+@import url(_page-home.css);
+
 
 /* Reset e Base */
 * {
@@ -22,7 +16,7 @@ body {
     font-family: 'Inter', -apple-system, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background: var(--light-bg);
+    background: var(--fundo-header);
 }
 
 /* Layout Principal */
@@ -36,3 +30,4 @@ body {
     min-height: calc(100vh - 160px);
     padding: 2rem 0;
 }
+

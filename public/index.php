@@ -1,33 +1,36 @@
+<!--
+================================
+ARQUIVO: public/index.php
+================================
+-->
+
 <?php
-require_once '../vendor/autoload.php';
 
-// Carregar variáveis de ambiente
-$dotenv = Dotenv\Dotenv::createImmutable('../');
-$dotenv->load();
+// Servir arquivos estáticos para o servidor embutido do PHP
+if (php_sapi_name() === 'cli-server') {
+    $url = parse_url($_SERVER['REQUEST_URI']);
+    $file = __DIR__ . $url['path'];
+    
+    // Se o arquivo existe (CSS, JS, imagens), serve diretamente
+    if (is_file($file)) {
+        return false;
+    }
+}
 
-// Iniciar sessão
-session_start();
+// Definir constantes globais
+define('BASE_URL', 'http://localhost:8000/'); 
+define('ROOT_PATH', dirname(__DIR__)); // Caminho raiz do projeto
 
-// Importar classes principais
-use App\Core\Router;
+require_once '../src/Core/Router.php';
+require_once '../src/Core/Database.php';
+require_once '../src/Controllers/HomeController.php';
 
-// Criar roteador
+// Inicializar o roteador
 $router = new Router();
 
 // Definir rotas
 $router->get('/', 'HomeController@index');
-$router->get('/login', 'AuthController@showLogin');
-$router->post('/login', 'AuthController@login');
-$router->get('/register', 'AuthController@showRegister');
-$router->post('/register', 'AuthController@register');
+$router->get('/home', 'HomeController@index');
 
-// Rotas protegidas
-$router->middleware('auth')->get('/profile', 'UserController@profile');
-$router->middleware('auth')->get('/nft/create', 'NFTController@create');
-
-// Rotas admin
-$router->middleware(['auth', 'admin'])->get('/admin', 'DashboardController@index');
-
-// Executar rota
+// Processar a requisição
 $router->dispatch();
-?>
