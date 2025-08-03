@@ -32,6 +32,8 @@
         <?php include '../src/Views/partials/footer.php'; ?>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    
+        <script src="/assets/js/components/cube3d.js"></script>
+        <script src="/assets/js/main.js"></script>
+
 </body>
 </html>

@@ -38,12 +38,18 @@ ARQUIVO: src/Views/partials/header.php
                         Coleções
                     </a>
                 </li>
-                <!--<li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="/profile">
-                        <i class="fas fa-user me-1"></i>
-                        Perfil
+                        <i class="fa-solid fa-route me-1"></i>
+                        Roadmap
                     </a>
-                </li> -->
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="/profile">
+                        <i class="fa fa-question-circle me-1"></i>
+                        FAQ
+                    </a>
+                </li> 
                 <li class="nav-item ms-2">
                     <a class="btn btn-outline-light btn-sm" href="/login">
                         <i class="fas fa-sign-in-alt me-1"></i>

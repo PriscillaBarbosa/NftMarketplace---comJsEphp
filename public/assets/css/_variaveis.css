@@ -7,6 +7,10 @@
     --fundo-tx-gradiente: linear-gradient(to right, #05DF72, #2B7FFF);
     --texto-cor-principal: #ffff;
     --texto-destaque: #05df72;
+    --texto-destaque-amarelo: #FEC700;
+    --texto-destaque-preto: #000; 
+    --texto-destaque-rosa: #F3297C;  
+    --texto-simbolo: #fff;
     --borda-destaque: #05df72;
     
     --fundo-bg:#0d0d2b;

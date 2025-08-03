@@ -17,6 +17,10 @@ if (php_sapi_name() === 'cli-server') {
     }
 }
 
+// Definir constantes globais
+define('BASE_URL', 'http://localhost:8000/'); 
+define('ROOT_PATH', dirname(__DIR__)); // Caminho raiz do projeto
+
 require_once '../src/Core/Router.php';
 require_once '../src/Core/Database.php';
 require_once '../src/Controllers/HomeController.php';

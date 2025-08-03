@@ -1,55 +1,149 @@
 .hero-section {
     background: var(--fundo-bg-gradiente);
 
-    .hero-boxmin {
-        border: 1px solid red;
+    .hero-box-info {
 
-        .mascote1-hero {
-            width: 80px;
-            height: 80px;
-        }
+        .hero-boxmin {
 
-        .hero-mascote-nome {
-            background: var(--fundo-bg-titulo);
-            color: var(--texto-destaque);
-            font-family: var(--fonte-textos);
-            border-radius: 80px;
-            width: 45%;
-            height: 1.8rem;
-            align-content: center;
-            border: 1px solid var(--borda-destaque);
+            .mascote1-hero {
+                width: 80px;
+                height: 80px;
+            }
 
-        .mascote-texto {
-            margin: 0;
-            font-size: .7rem;
-            text-align: center;
-        }
-    }
-}
+            .hero-mascote-nome {
+                background: var(--fundo-bg-titulo);
+                color: var(--texto-destaque);
+                font-family: var(--fonte-textos);
+                border-radius: 80px;
+                width: 45%;
+                height: 1.8rem;
+                align-content: center;
+                border: 1px solid var(--borda-destaque);
 
-.hero-boxmin-chamada {
-
-     border: 1px solid red;
-
-        .hero-chamada {
-            color: var(--texto-cor-principal);
-            font-family: var(--fonte-titulos);
-            font-size: 2rem;
-            margin-right: 11rem;
-        }
-
-        .hero-chamada-gradiente {
-            background: var(--fundo-tx-gradiente);
-            font-family: var(--fonte-titulos);
-            font-size: 2rem;
-            background-clip: text;
-
-            .chamada-gradiente-texto {
-                color: transparent;
+                .mascote-texto {
+                    margin: 0;
+                    font-size: .7rem;
+                    text-align: center;
+                }
             }
         }
 
+        .hero-boxmin-chamada {
+
+            .hero-chamada {
+                color: var(--texto-cor-principal);
+                font-family: var(--fonte-titulos);
+                font-size: 2rem;
+                margin-right: 11rem;
+            }
+
+            .hero-chamada-gradiente {
+                background: var(--fundo-tx-gradiente);
+                font-family: var(--fonte-titulos);
+                font-size: 2rem;
+                background-clip: text;
+
+                .chamada-gradiente-texto {
+                    color: transparent;
+                }
+            }
+        }
+
+        .hero-box-dados {
+
+            .box-dados {
+                margin-right: 6.5rem;
+
+                .dados-number1,
+                .dados-number2,
+                .dados-texto {
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 1.3rem;
+                }
+
+                .dados-simbolo {
+                    color: var(--texto-simbolo);
+                }
+
+                .dados-number1 {
+                    color: var(--texto-destaque-amarelo);
+                }
+
+                .dados-number2 {
+                    color: var(--texto-destaque);
+                }
+
+                .dados-texto {
+                    color: var(--texto-cor-principal);
+                    font-family: var(--fonte-titulos);
+                    margin-left: .5rem;
+                } 
+            }
+        }
+    }
+
+    .hero-box-valor {
+
+        .box-buttons {
+            margin-right: 4rem;
+
+            .btn-compre-agora {
+                background-color: var(--texto-destaque);
+                color:var(--texto-destaque-preto);
+                font-weight: 700;
+                font-size: .7rem;
+            }
+
+            .btn-lista-branca {
+                background-color: transparent;
+                color:var(--texto-cor-principal);
+                font-weight: 700;
+                border: 1px solid var(--texto-destaque);
+                font-size: .7rem;
+            }
+        }
+    }
+
+    .hero-box-info-valor {
+
+        .hero-box-infos {
+            margin-right: 1.7rem;
+
+            .box-info-texto {
+            color: var(--texto-cor-principal);
+            font-weight: 700;
+            font-size: .7rem;
+            letter-spacing: 1px;
+
+                .circulo {
+                width: .5rem;
+                height: .5rem;
+                border-radius: 50%;
+                }
+
+                .circulo-verde {
+                    background-color: var(--texto-destaque);
+                }
+
+                .circulo-rosa {
+                    background-color: var(--texto-destaque-rosa);
+                }
+
+                .texto-info {
+                    font-weight: 700;
+                    font-size: .7rem;
+                }
+
+                .texto-info-nft {
+                    color: var(--texto-destaque);
+                }
+
+                .texto-info-eth {
+                    color: var(--texto-destaque-rosa);
+                }
+            }
+        } 
     }
 }
 
- 
