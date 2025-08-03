@@ -147,3 +147,42 @@
     }
 }
 
+.numbers-section {
+    background: var(--fundo-numbers-gradiente);
+
+
+    .fa-gem.icon-fa-gem {
+       width: 1rem;
+       height: 1rem;
+    }
+}
+
+.feature-section {
+    background: var(--fundo-bg-feature);
+
+    .title-section {
+        color: var(--texto-cor-principal);
+        font-family: var(--fonte-titulos);
+        letter-spacing: 1.2px;
+    }
+
+    .lead {
+        color: var( --texto-cor-secundario);
+        font-family: var(--fonte-textos);
+        font-size: 1.5rem;
+    }
+
+    .subtitle-feature {
+        color: var(--texto-cor-principal);
+        font-family: var(--fonte-titulos);
+        letter-spacing: 1.2px;
+        font-weight: bold;
+    }
+
+    .titulo-simbolo {
+        background: var(--texto-destaque-amarelo);
+        width: .5rem;
+        height: 2rem;
+    }
+}
+

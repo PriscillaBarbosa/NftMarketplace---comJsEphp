@@ -3,9 +3,12 @@
 :root {
 
     --fundo-bg-gradiente: linear-gradient(to right, #0F172B, #0F172B 50%, #1C398E);
+    --fundo-numbers-gradiente: linear-gradient(to right, #0F172B, #1D293D, #0F172B);
+    --fundo-bg-feature: #0f172b;
     --fundo-bg-titulo: #0b3b32;
     --fundo-tx-gradiente: linear-gradient(to right, #05DF72, #2B7FFF);
     --texto-cor-principal: #ffff;
+    --texto-cor-secundario: #99A1AF;
     --texto-destaque: #05df72;
     --texto-destaque-amarelo: #FEC700;
     --texto-destaque-preto: #000; 
@@ -13,16 +16,6 @@
     --texto-simbolo: #fff;
     --borda-destaque: #05df72;
     
-    --fundo-bg:#0d0d2b;
-    --fundo-header: #0a0a0f;
-    --fundo-sections: #1c1c1c;
-    --text-primary: #ffffff;
-    --text-secondary: #B0BEC5;
-    --title-sections: #ff1493;
-    --button-primary:#1F51FF;
-    --button-secondary: #6a0dad;
-    --button-hover: #3c6ef3;
-    --border-cards: #2f2f3a;
 
 
 /******variaveis de texto******/

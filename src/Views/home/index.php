@@ -95,28 +95,28 @@ ARQUIVO: src/Views/home/index.php
 </section>
 
 <!-- Stats Section -->
-<section class="py-5 gradient-bg">
+<section class="numbers-section py-5">
     <div class="container">
-        <div class="row g-4">
+        <div class="row g-4 my-4">
             <div class="col-md-4">
-                <div class="stats-card text-white text-center p-4 h-100">
-                    <i class="fas fa-images fa-3x mb-3 text-warning"></i>
-                    <h3 class="fw-bold"><?= number_format($stats['total_nfts']) ?></h3>
-                    <p class="mb-0">NFTs Disponíveis</p>
+                <div class="stats-card anima-card d-flex flex-column text-white text-center p-4 h-100">
+                    <i class="fa-solid fa-gem mb-4 mt-2"></i>
+                    <h3 class="fw-bold numero-contador" data-numero="<?= $stats['total_nfts'] ?>">0</h3>
+                    <p class="mb-0 texto-anima-card">NFTs Disponíveis</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="stats-card text-white text-center p-4 h-100">
-                    <i class="fas fa-users fa-3x mb-3 text-warning"></i>
-                    <h3 class="fw-bold"><?= number_format($stats['total_users']) ?></h3>
-                    <p class="mb-0">Usuários Ativos</p>
+                <div class="stats-card anima-card d-flex flex-column text-white text-center p-4 h-100">
+                    <i class="fa-solid fa-people-group mb-4 mt-2"></i>
+                    <h3 class="fw-bold numero-contador" data-numero="<?= $stats['total_users'] ?>">0</h3>
+                    <p class="mb-0 texto-anima-card">Usuários Ativos</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="stats-card text-white text-center p-4 h-100">
-                    <i class="fas fa-ethereum fa-3x mb-3 text-warning"></i>
-                    <h3 class="fw-bold"><?= $stats['total_volume'] ?></h3>
-                    <p class="mb-0">Volume Total</p>
+                <div class="stats-card anima-card d-flex flex-column text-white text-center p-4 h-100">
+                    <i class="fas fa-boxes mb-4 mt-2"></i>
+                    <h3 class="fw-bold numero-contador" data-numero="<?= preg_replace('/[^0-9]/', '', $stats['total_volume']) ?>">0</h3>
+                    <p class="mb-0 texto-anima-card">Volume Total</p>
                 </div>
             </div>
         </div>
@@ -124,13 +124,27 @@ ARQUIVO: src/Views/home/index.php
 </section>
 
 <!-- Featured NFTs Section -->
-<section class="py-5 bg-light">
+<section class="feature-section py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-5 fw-bold text-dark">NFTs em Destaque</h2>
-            <p class="lead text-muted">Descubra as coleções mais populares do momento</p>
+            <h2 class="display-5 fw-bold title-section mt-5 mb-5">NFTs em Destaque</h2>
+            <p class="lead">Descubra nossa coleção exclusiva de NFTs com arte digital exclusiva e nosso adorado mascote Shibu do universo Lobix.</p>
         </div>
-        
+        <div class="d-flex justify-content-center align-items-center my-5 py-3">
+            <div class="d-flex">
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1 me-4"></p>
+            </div>
+            <h3 class="subtitle-feature">SHIBU COLEÇÃO PREVIEW</h3>
+            <div class="d-flex">
+                <p class="titulo-simbolo mb-0 mx-1 ms-4"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+            </div>
+        </div>
         <div class="row g-4">
             <?php foreach ($featured_nfts as $nft): ?>
             <div class="col-lg-4 col-md-6">

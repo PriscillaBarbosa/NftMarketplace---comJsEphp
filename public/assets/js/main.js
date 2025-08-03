@@ -50,3 +50,4 @@ const App = {
 
 // Inicializar quando DOM estiver pronto
 document.addEventListener('DOMContentLoaded', () => App.init());
+
