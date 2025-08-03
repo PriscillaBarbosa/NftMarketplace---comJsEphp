@@ -34,21 +34,21 @@
         // Cria as partículas quando a página carrega
         window.addEventListener('load', createParticles);
 
-        // Muda o conteúdo das faces periodicamente
-        const alternativeNames = [
-            'Cosmic Cat', 'Digital Dragon', 'Cyber Punk', 'Meta Monkey',
-            'Space Whale', 'Neon Tiger', 'Quantum Bird', 'Pixel Phoenix',
-            'Ghost Rider', 'Crystal Wolf', 'Fire Fox', 'Ice Bear'
-        ];
+      //  // Muda o conteúdo das faces periodicamente
+         // const alternativeNames = [
+            //  'Cosmic Cat', 'Digital Dragon', 'Cyber Punk', 'Meta Monkey',
+            //  'Space Whale', 'Neon Tiger', 'Quantum Bird', 'Pixel Phoenix',
+            //  'Ghost Rider', 'Crystal Wolf', 'Fire Fox', 'Ice Bear'
+       //   ];
 
 
-         setInterval(() => {
+         //setInterval(() => {
             // Só muda se não estiver pausado
-            if (!isPaused) {
-                const faces = document.querySelectorAll('.cube-face');
-                faces.forEach(face => {
-                    const randomName = alternativeNames[Math.floor(Math.random() * alternativeNames.length)];
-                    face.textContent = randomName;
-                });
-            }
-        }, 12000); // Muda a cada 12 segundos
+            // if (!isPaused) {
+               //  const faces = document.querySelectorAll('.cube-face');
+               //  faces.forEach(face => {
+               //      const randomName = alternativeNames[Math.floor(Math.random() * alternativeNames.length)];
+               //      face.textContent = randomName;
+              //   });
+            // }
+       //  }, 12000); // Muda a cada 12 segundos

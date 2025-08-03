@@ -17,7 +17,7 @@ ARQUIVO: src/Views/home/index.php
                 <div class="hero-box-info">
                     <div class="hero-boxmin d-flex justify-content-end align-items-center">
                         <div class="hero-box-title">
-                            <img src="assets/img/mascote/mascote-versao1.svg" alt="Mascote" class="mascote1-hero">    
+                            <img src="assets/img/mascote/mascote-happy.svg" alt="Mascote" class="mascote1-hero">    
                         </div>
                         <div class="hero-mascote-nome">
                             <p class="mascote-texto d-flex justify-content-center">MEET SHIBU - NOSSO MASCOTE</p>
@@ -60,28 +60,34 @@ ARQUIVO: src/Views/home/index.php
                     </div>
                 </div>
             </div>
-            
-
-            <!--<div class="d-flex gap-3">
-                <a href="/nfts" class="btn btn-primary-custom btn-lg">
-                    <i class="fas fa-rocket me-2"></i>
-                    Explorar NFTs
-                </a>
-                <a href="/create" class="btn btn-outline-light btn-lg">
-                    <i class="fas fa-paint-brush me-2"></i>
-                    Criar NFT
-                </a>
-            </div>-->
         </div>
         <div class="col-lg-6">
             <div class="cube-container d-flex justify-content-center align-items-center">
                 <div class="cube" id="hero-cube">
-                    <div class="cube-face front">NFT #001</div>
-                    <div class="cube-face back">NFT #002</div>
-                    <div class="cube-face right">NFT #003</div>
-                    <div class="cube-face left">NFT #004</div>
-                    <div class="cube-face top">NFT #005</div>
-                    <div class="cube-face bottom">NFT #006</div>
+                    <div class="cube-face front">
+                        <p class="mascote-nome mascote-happy">Shibu Happy</p>
+                        <img src="assets/img/mascote/mascote-happy.svg" alt="" class="cube-mascote-happy">
+                    </div>
+                    <div class="cube-face back">
+                        <p class="mascote-nome mascote-golden">Shibu Golden</p>
+                        <img src="assets/img/mascote/mascote-golden.svg" alt="" class="cube-mascote-golden">
+                    </div>
+                    <div class="cube-face right">
+                        <p class="mascote-nome mascote-cyber">Shibu Cyber</p>
+                        <img src="assets/img/mascote/mascote-cyber.svg" alt="" class="cube-mascote-cyber">
+                    </div>
+                    <div class="cube-face left">
+                        <p class="mascote-nome mascote-rainbow">Shibu Rainbow</p>
+                        <img src="assets/img/mascote/mascote-rainbow.svg" alt="" class="cube-mascote-rainbow">
+                    </div>
+                    <div class="cube-face top">
+                        <p class="mascote-nome mascote-green">Shibu Green</p>
+                         <img src="assets/img/mascote/mascote-caolho.svg" alt="" class="cube-mascote-caolho">
+                    </div>
+                    <div class="cube-face bottom">
+                        <p class="mascote-nome mascote-party">Shibu Party</p>
+                        <img src="assets/img/mascote/mascote-party.svg" alt="" class="cube-mascote-party">
+                    </div>
                 </div>
             </div>
         </div>

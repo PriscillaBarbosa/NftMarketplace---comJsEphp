@@ -7,7 +7,7 @@ ARQUIVO: src/Views/partials/header.php
 <nav class="navbar navbar-expand-lg px-5">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src="assets/img/mascote/mascote-versao1.svg" alt="Mascote">
+            <img src="assets/img/mascote/mascote-happy.svg" alt="Mascote">
         </a>
         <div class="header-logo-titulo d-flex align-items-center justify-content-center">
             <img src="assets/img/Margin.svg" alt="Simbolo" class="simbolo mb-0 pt-1">

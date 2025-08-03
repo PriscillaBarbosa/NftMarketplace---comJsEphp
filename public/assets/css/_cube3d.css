@@ -65,6 +65,36 @@
             background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
         }
 
+
+        .cube-mascote-happy,
+        .cube-mascote-golden,
+        .cube-mascote-cyber,
+        .cube-mascote-neon,
+        .cube-mascote-rainbow,
+        .cube-mascote-caolho {
+            width: 9rem;
+            height: 9rem;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+        }
+
+        .mascote-happy,
+        .mascote-golden,
+        .mascote-cyber,
+        .mascote-rainbow,
+        .mascote-green,
+        .mascote-party {
+            font-size: 1rem;
+            color: var(--texto-destaque);
+            margin-left: 2rem;
+        }
+
+        .mascote-nome {
+            background: var(--fundo-tx-gradiente);
+            background-clip: text;
+            color: transparent;
+            font-weight: bold;
+            }
+
         /* Animação de rotação */
         @keyframes rotateCube {
             0% {
