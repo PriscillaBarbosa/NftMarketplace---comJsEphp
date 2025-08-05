@@ -13,8 +13,13 @@
     --texto-destaque-amarelo: #FEC700;
     --texto-destaque-preto: #000; 
     --texto-destaque-rosa: #F3297C;  
+    --texto-destaque-azul: #51A2FF;
+    --borda-destaque-azul: rgba(81, 162, 255, 0.3);
     --texto-simbolo: #fff;
     --borda-destaque: #05df72;
+    --borda-destaque-verde: rgba(5, 223, 114, 0.3);
+    --card-bg-maior: rgba(30, 41, 57, 0.5);
+    --card-bg-menor: #1E2939;
     
 
 

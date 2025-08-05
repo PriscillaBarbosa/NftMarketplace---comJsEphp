@@ -21,26 +21,47 @@ class HomeController {
     private function getFeaturedNFTs() {
         // Dados mockados para demonstração
         return [
+
             [
                 'id' => 1,
-                'title' => 'Digital Art #001',
-                'price' => '0.5 ETH',
-                'image' => 'https://via.placeholder.com/300x300?text=NFT+1',
-                'creator' => 'Artist1'
+                'title' => 'Shibu Rainbow',
+                'price' => '2.0 ETH',
+                'code'  => '#SHIBU001',
+                'perfil' => 'raimbow',
+                'status' => 'original',
+                'image' => '/../assets/img/mascote/mascote-rainbow.svg',
+                'creator' => 'Lobix'
             ],
+                        
             [
                 'id' => 2,
-                'title' => 'Crypto Punk #123',
+                'title' => 'Shibu Cyber',
                 'price' => '2.0 ETH',
-                'image' => 'https://via.placeholder.com/300x300?text=NFT+2',
-                'creator' => 'Artist2'
+                'code'  => '#SHIBU002',
+                'perfil' => 'cyber',
+                'status' => 'cool',
+                'image' => '/../assets/img/mascote/mascote-cyber.svg',
+                'creator' => 'Lobix'
             ],
             [
                 'id' => 3,
-                'title' => 'Abstract Collection',
+                'title' => 'Shibu Golden',
                 'price' => '1.2 ETH',
-                'image' => 'https://via.placeholder.com/300x300?text=NFT+3',
-                'creator' => 'Artist3'
+                'code'  => '#SHIBU003',
+                'perfil' => 'piscando',
+                'status' => 'gold',
+                'image' => '/../assets/img/mascote/mascote-golden.svg',
+                'creator' => 'Lobix'
+            ],
+             [
+                'id' => 4,
+                'title' => 'Shibu Neon',
+                'price' => '1.2 ETH',
+                'code'  => '#SHIBU004',
+                'perfil' => 'surpreso',
+                'status' => 'neon',
+                'image' => '/../assets/img/mascote/mascote-neon.svg',
+                'creator' => 'Lobix'
             ]
         ];
     }
