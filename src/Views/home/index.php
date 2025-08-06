@@ -149,38 +149,38 @@ ARQUIVO: src/Views/home/index.php
             <?php foreach ($featured_nfts as $nft): ?>
             <div class="col-lg-3 col-md-4">
                 <div class="card nft-card h-100">
+                            
                         <div class="position-relative">
+                            
                             <div class="nft-image-container d-flex justify-content-center align-items-center m-4">
                                 <img src="<?= $nft['image'] ?>" class="rounded nft-image" alt="<?= $nft['title'] ?>">
                             </div>
+                            
                             <div class="creator-badge">
                                 <i class="fas fa-user me-1"></i>
                                 <?= $nft['creator'] ?>
                             </div>
+                           
                         </div>
                     <div class="card-body p-2">
-                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-between align-items-center mx-3">
                             <p class="card-title mb-0 pe-2"><?= $nft['title'] ?></p>
                             <p class="preco mb-0"><?= $nft['price'] ?></p>
                         </div>
-                        <div class="d-flex">
-                            <p class="codigo"><?= $nft['code'] ?></p>
+                        <div class="d-flex align-items-center my-1">
+                            <p class="codigo mb-0 me-2"><?= $nft['code'] ?></p>
+                            <span class="curtir">
+                                <i class="fas fa-heart"></i>
+                            </span>
                         </div>
-                        <div class="d-flex mb-4">
+                        <div class="d-flex mb-4 align-items-center justify-content-between mx-3">
                             <span class="perfil d-flex justify-content-center align-items-center me-2"><?= $nft['perfil'] ?></span>
                             <span class="status d-flex justify-content-center align-items-center"><?= $nft['status'] ?></span>
                         </div>
-
-                            <div class="d-flex justify-content-between align-items-center">
-                            
-                            <div class="btn-group">
-                                <button class="btn btn-outline-primary btn-sm">
-                                    <i class="fas fa-heart"></i>
-                                </button>
-                                <button class="btn btn-primary btn-sm">
-                                    <i class="fas fa-shopping-cart me-1"></i>
-                                </button>
-                            </div>
+                        <div class="d-flex justify-content-center align-items-center mb-3">
+                            <button class="btn btn-comprar">
+                                <i class="fas fa-shopping-cart me-1"></i>
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,23 @@
+
+.curtir {
+    color: red;
+}
+
+.btn-comprar {
+    border: 1px solid var(--borda-destaque);
+    border-radius: 20px;
+    width:85%;
+
+    &:hover {
+        background: var(--borda-destaque);
+    }
+
+    .fa-shopping-cart {
+        color: var(--texto-simbolo);
+    }
+}
+
+.btn-comprar:hover .fa-shopping-cart {
+    color: var(--fundo-bg-feature);
+}
+
