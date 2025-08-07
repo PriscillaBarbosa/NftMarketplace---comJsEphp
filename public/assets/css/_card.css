@@ -1,7 +1,7 @@
 .nft-card {
     width: 16rem;
     background-color: var(--card-bg-maior);
-
+    
     .card-title {
         color: var(--texto-cor-principal);
         text-align: center;
@@ -58,3 +58,4 @@
     border-radius: 15px;
     width: 6rem;
 }
+

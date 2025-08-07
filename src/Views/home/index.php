@@ -148,6 +148,9 @@ ARQUIVO: src/Views/home/index.php
         <div class="row g-2">
             <?php foreach ($featured_nfts as $nft): ?>
             <div class="col-lg-3 col-md-4">
+
+            
+
                 <div class="card nft-card h-100">
                             
                         <div class="position-relative">
