@@ -149,8 +149,6 @@ ARQUIVO: src/Views/home/index.php
             <?php foreach ($featured_nfts as $nft): ?>
             <div class="col-lg-3 col-md-4">
 
-            
-
                 <div class="card nft-card h-100">
                             
                         <div class="position-relative">
@@ -190,13 +188,114 @@ ARQUIVO: src/Views/home/index.php
             </div>
             <?php endforeach; ?>
         </div>
+        <div class="">
+            <div class="d-flex justify-content-center align-text-center mt-5 pt-5">
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1 me-4"></p>
+                <h3 class="subtitle-feature">SHIBU COLEÇÃO PREVIEW</h3>
+                <p class="titulo-simbolo mb-0 mx-1 ms-4"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+                <p class="titulo-simbolo mb-0 mx-1"></p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <div class="card ms-5">
+                    <div class="card-capa">
+                        <div class="capa-imgs d-flex justify-content-center align-items-center m-4">
+                            <img src="<?= $nft['image'] ?>" class="rounded img1" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img2" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img3" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img4" alt="<?= $nft['title'] ?>">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CIBOX #001</h5>
+                        <div class="">
+                            <p class="card-text my-3">#001 Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <a href="#" class="preco mb-0 me-1">0.09</a>
+                                <p class="text-moeda mb-0">ETH</p>
+                            </div>
+                            <a href="#" class="btn ver-mais">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card ms-5">
+                    <div class="card-capa">
+                        <div class="capa-imgs d-flex justify-content-center align-items-center m-4">
+                            <img src="<?= $nft['image'] ?>" class="rounded img1" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img2" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img3" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img4" alt="<?= $nft['title'] ?>">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CIBOX #001</h5>
+                        <div class="">
+                            <p class="card-text my-3">#001 Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <a href="#" class="preco mb-0 me-1">0.09</a>
+                                <p class="text-moeda mb-0">ETH</p>
+                            </div>
+                            <a href="#" class="btn ver-mais">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card ms-5">
+                    <div class="card-capa">
+                        <div class="capa-imgs d-flex justify-content-center align-items-center m-4">
+                            <img src="<?= $nft['image'] ?>" class="rounded img1" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img2" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img3" alt="<?= $nft['title'] ?>">
+                            <img src="<?= $nft['image'] ?>" class="rounded img4" alt="<?= $nft['title'] ?>">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CIBOX #001</h5>
+                        <div class="">
+                            <p class="card-text my-3">#001 Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <a href="#" class="preco mb-0 me-1">0.09</a>
+                                <p class="text-moeda mb-0">ETH</p>
+                            </div>
+                            <a href="#" class="btn ver-mais">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
         <div class="text-center mt-5">
-            <a href="/nfts" class="btn btn-primary-custom btn-lg ver-todos">
+            <a href="/nfts" class="btn btn-lg ver-todos">
                 <i class="fas fa-eye me-2"></i>
                 Ver Todos os NFTs
             </a>
         </div>
+    </div>
+</section>
+<section class="section-beneficios d-flex justify-content-center">
+    <div class="conteudo-beneficios">
+        <div class="d-flex justify-content-start">
+            <p class="caracteristicas">CARACTERISTICAS</p>
+            <div class="icone-detalhe mx-1 mt-2"></div>
+            <div class="icone-detalhe mx-1 mt-2"></div>
+            <div class="icone-detalhe mx-1 mt-2"></div>
+            <div class="icone-detalhe mx-1 mt-2"></div>
+            <div class="icone-detalhe mx-1 mt-2"></div>
+        </div>
+    </div>
+
+    <div class="">
+        
     </div>
 </section>
 

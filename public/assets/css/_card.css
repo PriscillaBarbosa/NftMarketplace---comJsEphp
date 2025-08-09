@@ -17,20 +17,18 @@
 }
 
 .nft-image {
-    height: 200px;
     width: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .ver-todos {
     color: var(--texto-cor-principal);
 }
 
-.preco {
+.preco,
+.text-moeda {
     color: var(--texto-destaque);
     display: flex;
+    text-decoration: none;
 }
 
 .codigo {
@@ -57,5 +55,75 @@
     border: 2px solid var(--borda-destaque-azul);
     border-radius: 15px;
     width: 6rem;
+}
+
+
+/*cards capa coleções */
+
+.card-capa {
+    min-height: 14rem;
+    background: var( --fundo-bg-feature);
+    margin: 1.5rem;
+    border-radius: .5rem;
+}
+
+.card {
+    background: var(--card-bg-menor);
+}
+
+.capa-imgs {
+    position: relative;
+
+    .img1 {
+        margin-top: 5rem;
+        position: absolute;
+    }
+
+    .img2 {
+        margin-top: 11rem;
+        margin-left: 9rem;
+        position: absolute;
+        transform: rotate(90deg); 
+    }
+
+    .img3 {
+        margin-top: 17rem;
+        position: absolute;
+        transform: rotate(180deg);
+    }
+
+    .img4 {
+        margin-top: 11rem;
+        margin-right: 9rem;
+        position: absolute;
+        transform: rotate(270deg); 
+    }
+}
+
+.card-title {
+    color: var(--texto-cor-principal);
+    font-family: var(--fonte-titulos);
+}
+
+.card-text {
+    color: var(--texto-cor-secundario);
+    font-family: var(--fonte-textos);
+}
+
+.text-moeda {
+    font-weight: 700;
+}
+
+.ver-mais {
+    background: var(--texto-destaque);
+    color: var(--fundo-bg-feature);
+    font-weight: 700;
+}
+
+.ver-todos {
+    background: var(--texto-destaque);
+    font-family: var(--fonte-titulos);
+    color: var(--fundo-bg-feature);
+    font-weight: 700;
 }
 

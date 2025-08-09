@@ -185,4 +185,25 @@
         height: 2rem;
     }
 }
+.section-beneficios {
+    background: var(--fundo-bg-feature);
 
+    .conteudo-beneficios {
+        width: 60%;
+        border: 1px solid red;
+
+        .caracteristicas {
+            color:var(--texto-destaque);
+            font-family: var(--fonte-titulos);
+            font-weight: 700;
+            font-size: .7rem;
+        }
+
+        .icone-detalhe {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 50%;
+            background-color: var(--texto-destaque);
+        }
+    }  
+}
