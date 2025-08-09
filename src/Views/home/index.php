@@ -283,7 +283,7 @@ ARQUIVO: src/Views/home/index.php
     </div>
 </section>
 <section class="section-beneficios d-flex justify-content-center">
-    <div class="conteudo-beneficios">
+    <div class="conteudo-beneficios my-5">
         <div class="d-flex justify-content-start">
             <p class="caracteristicas">CARACTERISTICAS</p>
             <div class="icone-detalhe mx-1 mt-2"></div>
@@ -292,14 +292,63 @@ ARQUIVO: src/Views/home/index.php
             <div class="icone-detalhe mx-1 mt-2"></div>
             <div class="icone-detalhe mx-1 mt-2"></div>
         </div>
-    </div>
-
-    <div class="">
-        
-    </div>
+        <h5 class="beneficios">QUAIS SEUS BENEFÍCIOS?</h5>
+        <div class="cards-beneficios d-flex justify-content-center align-items-center py-5">
+            <div class="card card-beneficios">
+                <div class="card-body">
+                    <div class="d-flex align-items-top">
+                        <div class="background-componente d-flex align-items-center justify-content-center">
+                            <img src="assets/img/Componente1.svg" alt="" class="componente">
+                        </div>
+                        <p class="ms-3 card-title">Mais recentes</p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="texto-componente">
+                            Globally impact clicks-and-mortar intrinsically plagiarize web-
+                            enabledopportunities nft.
+                        </p>  
+                    </div>
+                </div>
+            </div>
+            <div class="card card-beneficios2 mx-5">
+                <div class="card-body">
+                    <div class="d-flex align-items-top">
+                        <div class="background-componente2 d-flex align-items-center justify-content-center">
+                            <img src="assets/img/Componente2.svg" alt="" class="componente">
+                        </div>
+                        <p class=" mr-1 card-title">Metaverso Pronto</p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="texto-componente">
+                            Globally impact clicks-and-mortar intrinsically plagiarize web-
+                            enabledopportunities nft.
+                        </p>  
+                    </div>
+                </div>
+            </div>
+            <div class="card card-beneficios3">
+                <div class="card-body">
+                    <div class="d-flex align-items-top">
+                        <div class="background-componente3 d-flex align-items-center justify-content-center">
+                            <img src="assets/img/Componente3.svg" alt="" class="componente">
+                        </div>
+                        <p class="mr-1 card-title">Proteção do Usuário</p>
+                    </div>
+                    <div class="mt-2">
+                        <p class="texto-componente">
+                            Globally impact clicks-and-mortar intrinsically plagiarize web-
+                            enabledopportunities nft.
+                        </p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>           
+    
+    
 </section>
 
-<!-- Newsletter Section -->
+<!-- Newsletter Section 
 <section class="py-5 gradient-bg text-white">
     <div class="container">
         <div class="row justify-content-center">
@@ -318,4 +367,4 @@ ARQUIVO: src/Views/home/index.php
             </div>
         </div>
     </div>
-</section>
+</section>-->

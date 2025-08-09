@@ -189,8 +189,8 @@
     background: var(--fundo-bg-feature);
 
     .conteudo-beneficios {
-        width: 60%;
-        border: 1px solid red;
+        width: 80%;
+        padding-top: 3rem;
 
         .caracteristicas {
             color:var(--texto-destaque);
@@ -204,6 +204,11 @@
             height: .5rem;
             border-radius: 50%;
             background-color: var(--texto-destaque);
+        }
+
+        .beneficios {
+            color: var(--texto-cor-principal);
+            font-family: var(--fonte-titulos);
         }
     }  
 }

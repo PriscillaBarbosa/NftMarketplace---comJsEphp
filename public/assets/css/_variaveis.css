@@ -20,6 +20,15 @@
     --borda-destaque-verde: rgba(5, 223, 114, 0.3);
     --card-bg-maior: rgba(30, 41, 57, 0.5);
     --card-bg-menor: #1E2939;
+
+/*****componentes*******/
+    --background-lasted:rgba(5, 223, 114, 0.1);
+    --border-lasted: rgba(5, 223, 114, 0.2);
+    --background-metaverse: rgba(255, 137, 4, 0.1);
+    --border-metaverse: rgba(255, 137, 4, 0.1);
+    --background-protection: rgba(81, 162, 255, 0.1);
+    --border-protection: rgba(81, 162, 255, 0.2);
+    
     
 
 
