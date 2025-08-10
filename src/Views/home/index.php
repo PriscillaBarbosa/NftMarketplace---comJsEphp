@@ -346,16 +346,50 @@ ARQUIVO: src/Views/home/index.php
     </div>            
 </section>
 <section class="comoComprar-section d-flex justify-content-center">
-    <div class="comoComprar-conteudo d-flex justify-content-center">
-        <div class="comoComprar-textos">
-            <div class="processo d-flex flex-column justify-content-center">
-                <p class="processo-texto">PROCESSO -----------</p>
+    <div class="comoComprar-conteudo d-flex flex-column justify-content-center">
+        <div class="comoComprar-textos d-flex flex-column align-items-center justify-content-center">
+            <div class="processo d-flex flex-column justify-content-center align-items-center">
+                <p class="processo-texto me-5 pe-4">PROCESSO -----------</p>
                 <h5 class="card-title">HOW TO MINT?</h5>
-
             </div>
         </div>
-        <div class="comoComprar-etapas">
-
+        <div class="comoComprar-etapas d-flex justify-content-center">
+            <div class="card-conect my-5 mx-3 d-flex justify-content-center align-items-center">
+                <div class="card-infoIcone d-flex flex-column justify-content-center align-items-center">
+                    <div class="background-componente4 d-flex justify-content-center align-items-center">
+                        <img src="assets/img/Componente4.svg" alt="" class="componente">
+                    </div>
+                    <h6 class="card-titulo my-2">Conecte sua Carteira</h6>
+                    <p class="card-textos">Connect your crypto wallet to start minting</p>
+                </div>
+            </div>
+            <div class="card-conect my-5 mx-3">
+                <div class="card-infoIcone d-flex flex-column justify-content-center align-items-center">
+                    <div class="background-componente4 d-flex justify-content-center align-items-center">
+                        <img src="assets/img/Componente5.svg" alt="" class="componente">
+                    </div>
+                    <h6 class="card-titulo my-2">Selecione a quantidade</h6>
+                    <p class="card-textos">Connect your crypto wallet to start minting</p>
+                </div>
+            </div>
+            <div class="card-conect my-5 mx-3">
+                <div class="card-infoIcone d-flex flex-column justify-content-center align-items-center">
+                    <div class="background-componente4 d-flex justify-content-center align-items-center">
+                        <img src="assets/img/Componente6.svg" alt="" class="componente">
+                    </div>
+                    <h6 class="card-titulo my-2">Confirme a transação</h6>
+                    <p class="card-textos">Connect your crypto wallet to start minting</p>
+                </div>
+            </div>
+            <div class="card-conect my-5 mx-3">
+                <div class="card-infoIcone d-flex flex-column justify-content-center align-items-center">
+                    <div class="background-componente4 d-flex justify-content-center align-items-center">
+                        <img src="assets/img/Componente7.svg" alt="" class="componente">
+                    </div>
+                    <h6 class="card-titulo my-2">Receba seus NFTs</h6>
+                    <p class="card-textos">Connect your crypto wallet to start minting</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

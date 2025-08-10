@@ -217,7 +217,6 @@
     background: var(--fundo-bg-feature);
 
     .comoComprar-conteudo {
-        border: 1px solid red;
         width: 70%;
 
         .comoComprar-textos {
@@ -228,10 +227,38 @@
 
                     color: var(--texto-destaque);
                     font-family: var(--fonte-textos);
-                    font-size: 1rem;
+                    font-size: .8rem;
                 }
             }
         }
 
+        .comoComprar-etapas {
+
+            .card-conect {
+                
+                text-align: center;
+                
+                .card-infoIcone {
+
+                    .background-componente4 {
+                        background: var(--card-bg-maior);
+                        border: 1px solid var(--borda-card-cinza);
+                        width: 40%;
+                        height:3rem;
+                        border-radius: 10px;
+                    }
+
+                    .card-titulo {
+                    color: var(--texto-cor-principal);
+                    font-size: .9rem;  
+                    }
+
+                    .card-textos {
+                        color: var(--texto-cor-secundario);
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
     }
 }
