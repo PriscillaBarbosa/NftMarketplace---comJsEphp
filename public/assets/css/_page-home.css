@@ -212,3 +212,26 @@
         }
     }  
 }
+
+.comoComprar-section {
+    background: var(--fundo-bg-feature);
+
+    .comoComprar-conteudo {
+        border: 1px solid red;
+        width: 70%;
+
+        .comoComprar-textos {
+
+            .processo {
+
+                .processo-texto {
+
+                    color: var(--texto-destaque);
+                    font-family: var(--fonte-textos);
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+}

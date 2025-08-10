@@ -343,9 +343,21 @@ ARQUIVO: src/Views/home/index.php
                 </div>
             </div>
         </div>
-    </div>           
-    
-    
+    </div>            
+</section>
+<section class="comoComprar-section d-flex justify-content-center">
+    <div class="comoComprar-conteudo d-flex justify-content-center">
+        <div class="comoComprar-textos">
+            <div class="processo d-flex flex-column justify-content-center">
+                <p class="processo-texto">PROCESSO -----------</p>
+                <h5 class="card-title">HOW TO MINT?</h5>
+
+            </div>
+        </div>
+        <div class="comoComprar-etapas">
+
+        </div>
+    </div>
 </section>
 
 <!-- Newsletter Section 
