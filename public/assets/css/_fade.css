@@ -1,0 +1,11 @@
+
+.feature-section .fade-up {
+    opacity: 0 !important;
+    transform: translateY(30px) !important;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out !important;
+}
+
+.feature-section .fade-up.visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}

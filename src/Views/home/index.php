@@ -127,7 +127,7 @@ ARQUIVO: src/Views/home/index.php
 <section class="feature-section py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-5 fw-bold title-section mt-5 mb-5">NFTs em Destaque</h2>
+            <h2 class="fade-up display-5 fw-bold title-section mt-5 mb-5">NFTs em Destaque</h2>
             <p class="lead">Descubra nossa coleção exclusiva de NFTs com arte digital exclusiva e nosso adorado mascote Shibu do universo Lobix.</p>
         </div>
         <div class="d-flex justify-content-center align-items-center my-5 py-3">
@@ -148,21 +148,18 @@ ARQUIVO: src/Views/home/index.php
         <div class="row g-2">
             <?php foreach ($featured_nfts as $nft): ?>
             <div class="col-lg-3 col-md-4">
-
-                <div class="card nft-card h-100">
-                            
-                        <div class="position-relative">
-                            
-                            <div class="nft-image-container d-flex justify-content-center align-items-center m-4">
-                                <img src="<?= $nft['image'] ?>" class="rounded nft-image" alt="<?= $nft['title'] ?>">
-                            </div>
-                            
-                            <div class="creator-badge">
-                                <i class="fas fa-user me-1"></i>
-                                <?= $nft['creator'] ?>
-                            </div>
-                           
+                <div class="card nft-card h-100">  
+                    <div class="position-relative">
+                        <div class="nft-image-container d-flex justify-content-center align-items-center m-4">
+                            <img src="<?= $nft['image'] ?>" class="rounded nft-image" alt="<?= $nft['title'] ?>">
                         </div>
+                        
+                        <div class="creator-badge">
+                            <i class="fas fa-user me-1"></i>
+                            <?= $nft['creator'] ?>
+                        </div>
+                        
+                    </div>
                     <div class="card-body p-2">
                         <div class="d-flex justify-content-between align-items-center mx-3">
                             <p class="card-title mb-0 pe-2"><?= $nft['title'] ?></p>
