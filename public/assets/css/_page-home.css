@@ -226,8 +226,9 @@
                 .processo-texto {
 
                     color: var(--texto-destaque);
-                    font-family: var(--fonte-textos);
+                    font-family: var(--fonte-titulos);
                     font-size: .8rem;
+                    font-weight: 700;
                 }
             }
         }

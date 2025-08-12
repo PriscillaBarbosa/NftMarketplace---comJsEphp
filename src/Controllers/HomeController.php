@@ -11,6 +11,7 @@ class HomeController {
         $data = [
             'title' => 'NFT Marketplace - Home',
             'featured_nfts' => $this->getFeaturedNFTs(),
+            'preview_nfts' => $this->getPreviewNFTs(), //criando novo array de dados
             'stats' => $this->getMarketplaceStats()
         ];
         
@@ -62,7 +63,24 @@ class HomeController {
                 'status' => 'neon',
                 'image' => '/../assets/img/mascote/mascote-neon.svg',
                 'creator' => 'Lobix'
-            ]
+             ],
+        ];
+    }
+
+     private function getPreviewNFTs() {
+        // Dados para a seção de preview
+        return [
+            'title' => 'CIBOX #001',
+            'code' => '001',
+            'images' => [
+                'img1' => '/../assets/img/mascote/mascote-rainbow.svg',
+                'img2' => '/../assets/img/mascote/mascote-cyber.svg',
+                'img3' => '/../assets/img/mascote/mascote-golden.svg',
+                'img4' => '/../assets/img/mascote/mascote-neon.svg'
+            ],
+            'price_value' => '0.09',
+            'price_currency' => 'ETH',
+            'description' => 'Some quick example text to build on the card title and make up the bulk of the card’s content.'
         ];
     }
     

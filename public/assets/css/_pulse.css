@@ -1,0 +1,14 @@
+/* Efeito pulse contínuo */
+
+.pulse-effect {
+    animation: pulse 5s; /* 2s = duração, infinite = repete sempre */
+}
+
+@keyframes pulse {
+    0%, 100% { 
+        transform: scale(1); 
+    }
+    50% { 
+        transform: scale(1.03); 
+    }
+}

@@ -1,4 +1,4 @@
-// Configurações globais
+
 // Configurações globais
 const App = {
     baseUrl: window.location.origin,
@@ -47,22 +47,45 @@ const App = {
             return;
         }
 
-        // Criar observer
+        
         const observer = new IntersectionObserver((entries) => {
-            console.log('👁️ Observer detectou mudanças:', entries.length);
-            
             entries.forEach(entry => {
-                console.log('📍 Elemento:', entry.target, 'Visível:', entry.isIntersecting);
-                
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                    console.log('✨ ANIMOU!', entry.target);
+                    // Se for card NFT, fazer em sequência
+                    if (entry.target.classList.contains('nft-card')) {
+                        const allCards = document.querySelectorAll('.nft-card.fade-up');
+                        const index = Array.from(allCards).indexOf(entry.target);
+                        
+                        setTimeout(() => {
+                            entry.target.classList.add('visible');
+                        }, index * 150); // 150ms entre cada card
+                    } else {
+                        // Outros elementos normalmente
+                        entry.target.classList.add('visible');
+                    }
                 }
             });
         }, { 
-            threshold: 0.1, // Mudei para 0.1 (mais sensível)
+            threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
         });
+
+        // Criar observer 
+       // const observer = new IntersectionObserver((entries) => {
+            //console.log('👁️ Observer detectou mudanças:', entries.length);
+            
+           // entries.forEach(entry => {
+                //console.log('📍 Elemento:', entry.target, 'Visível:', entry.isIntersecting);
+                
+                //if (entry.isIntersecting) {
+                    //entry.target.classList.add('visible');
+                    //console.log('✨ ANIMOU!', entry.target);
+               // }
+           // });
+       // }, { 
+           // threshold: 0.1, // Mudei para 0.1 (mais sensível)
+           // rootMargin: '0px 0px -50px 0px'
+       // });
 
         // Observar elementos
         elementos.forEach(el => {
