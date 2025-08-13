@@ -24,6 +24,7 @@ define('ROOT_PATH', dirname(__DIR__)); // Caminho raiz do projeto
 require_once '../src/Core/Router.php';
 require_once '../src/Core/Database.php';
 require_once '../src/Controllers/HomeController.php';
+require_once '../src/Controllers/RegisterController.php';
 
 // Inicializar o roteador
 $router = new Router();
@@ -31,6 +32,8 @@ $router = new Router();
 // Definir rotas
 $router->get('/', 'HomeController@index');
 $router->get('/home', 'HomeController@index');
+$router->get('/register', 'RegisterController@index');        // ← nova rota (mostra o form)
+$router->post('/register', 'RegisterController@store');       // ← nova rota (processa os dados)
 
 
 // Processar a requisição
