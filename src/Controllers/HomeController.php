@@ -105,6 +105,6 @@ class HomeController {
         include $layoutPath;
     } else {
         echo "Layout não encontrado: {$layoutPath}";
-    }
+        }
     }
 }

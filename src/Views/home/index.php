@@ -312,6 +312,7 @@ ARQUIVO: src/Views/home/index.php
         <div class="comoComprar-textos d-flex flex-column align-items-center justify-content-center">
             <div class="processo d-flex flex-column justify-content-center align-items-center">
                 <p class="processo-texto me-5 pe-4">PROCESSO -----------</p>
+                <div class="icone-detalhe mx-1 mt-2"></div>
                 <h5 class="card-title">HOW TO MINT?</h5>
             </div>
         </div>
