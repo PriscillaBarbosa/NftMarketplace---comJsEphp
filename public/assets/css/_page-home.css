@@ -185,4 +185,81 @@
         height: 2rem;
     }
 }
+.section-beneficios {
+    background: var(--fundo-bg-feature);
 
+    .conteudo-beneficios {
+        width: 80%;
+        padding-top: 3rem;
+
+        .caracteristicas {
+            color:var(--texto-destaque);
+            font-family: var(--fonte-titulos);
+            font-weight: 700;
+            font-size: .7rem;
+        }
+
+        .icone-detalhe {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 50%;
+            background-color: var(--texto-destaque);
+        }
+
+        .beneficios {
+            color: var(--texto-cor-principal);
+            font-family: var(--fonte-titulos);
+        }
+    }  
+}
+
+.comoComprar-section {
+    background: var(--fundo-bg-feature);
+
+    .comoComprar-conteudo {
+        width: 70%;
+
+        .comoComprar-textos {
+
+            .processo {
+
+                .processo-texto {
+
+                    color: var(--texto-destaque);
+                    font-family: var(--fonte-titulos);
+                    font-size: .8rem;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .comoComprar-etapas {
+
+            .card-conect {
+                
+                text-align: center;
+                
+                .card-infoIcone {
+
+                    .background-componente4 {
+                        background: var(--card-bg-maior);
+                        border: 1px solid var(--borda-card-cinza);
+                        width: 40%;
+                        height:3rem;
+                        border-radius: 10px;
+                    }
+
+                    .card-titulo {
+                    color: var(--texto-cor-principal);
+                    font-size: .9rem;  
+                    }
+
+                    .card-textos {
+                        color: var(--texto-cor-secundario);
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
+}

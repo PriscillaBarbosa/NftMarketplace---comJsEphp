@@ -1,45 +1,107 @@
+
 // Configurações globais
 const App = {
     baseUrl: window.location.origin,
-    components: {}, //Armazena instâncias dos componentes
+    components: {},
     
     // Inicialização
     init() {
         this.setupEventListeners();
-        this.loadComponents();
-        this.initComponents(); //inicia os componentes
+        this.initComponents();
+        this.initScrollReveal();
     },
 
-    //Inicializa componentes específicos por página
+    // Inicializa componentes (SEM ERRO)
     initComponents() {
-        //verifica se está na página
-        if (document.querySelector('#hero-cube')) {
-           this.components.heroCube = new Cube3D('#hero-cube', {
-                size: 200,
-                glowColor: '#00ccff',
-                theme: 'blue'
-           });
+        const cubeElement = document.querySelector('#hero-cube');
+        
+        if (cubeElement) {
+            // Só tentar criar o cubo se a classe existir
+            if (typeof Cube3D !== 'undefined') {
+                try {
+                    this.components.heroCube = new Cube3D('#hero-cube', {
+                        size: 200,
+                        glowColor: '#00ccff',
+                        theme: 'blue'
+                    });
+                    console.log('✅ Cubo 3D inicializado');
+                } catch (error) {
+                    console.log('❌ Erro no cubo:', error);
+                }
+            } else {
+                console.log('⚠️ Classe Cube3D não carregada ainda');
+            }
         }
     },
 
-    //cubo 3d
-    initComponents() {
-    if (document.querySelector('#hero-cube')) {
-        this.components.heroCube = new Cube3D('#hero-cube');
-    }
-},
+    // Scroll Reveal com MUITO debug
+    initScrollReveal() {
+        console.log('🚀 Iniciando scroll reveal...');
+        
+        // Verificar se o elemento existe
+        const elementos = document.querySelectorAll('.feature-section .fade-up');
+        console.log('🔍 Elementos encontrados:', elementos.length);
+        
+        if (elementos.length === 0) {
+            console.log('❌ Nenhum elemento .feature-section .fade-up encontrado!');
+            return;
+        }
 
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Se for card NFT, fazer em sequência
+                    if (entry.target.classList.contains('nft-card')) {
+                        const allCards = document.querySelectorAll('.nft-card.fade-up');
+                        const index = Array.from(allCards).indexOf(entry.target);
+                        
+                        setTimeout(() => {
+                            entry.target.classList.add('visible');
+                        }, index * 150); // 150ms entre cada card
+                    } else {
+                        // Outros elementos normalmente
+                        entry.target.classList.add('visible');
+                    }
+                }
+            });
+        }, { 
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        // Criar observer 
+       // const observer = new IntersectionObserver((entries) => {
+            //console.log('👁️ Observer detectou mudanças:', entries.length);
+            
+           // entries.forEach(entry => {
+                //console.log('📍 Elemento:', entry.target, 'Visível:', entry.isIntersecting);
+                
+                //if (entry.isIntersecting) {
+                    //entry.target.classList.add('visible');
+                    //console.log('✨ ANIMOU!', entry.target);
+               // }
+           // });
+       // }, { 
+           // threshold: 0.1, // Mudei para 0.1 (mais sensível)
+           // rootMargin: '0px 0px -50px 0px'
+       // });
+
+        // Observar elementos
+        elementos.forEach(el => {
+            observer.observe(el);
+            console.log('👀 Observando elemento:', el);
+        });
+    },
     
     // Event Listeners globais
     setupEventListeners() {
-        // Mobile menu toggle
         document.addEventListener('click', (e) => {
             if (e.target.matches('[data-mobile-toggle]')) {
                 this.toggleMobileMenu();
             }
         });
         
-        // Upload de imagens
         document.addEventListener('change', (e) => {
             if (e.target.matches('input[type="file"]')) {
                 this.handleFileUpload(e.target);
@@ -48,6 +110,5 @@ const App = {
     }
 };
 
-// Inicializar quando DOM estiver pronto
+// Inicializar
 document.addEventListener('DOMContentLoaded', () => App.init());
-
