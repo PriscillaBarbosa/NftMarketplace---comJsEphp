@@ -33,7 +33,7 @@ class CpfValidator
             $soma += $cpf[$i] * (10 - $i);
         }
         $resto = $soma % 11;
-        $digito2 = $resto < 2 ? 0 : 11 - $resto;
+        $digito1 = $resto < 2 ? 0 : 11 - $resto;
 
         //verificar o primeiro dígito
         if ($cpf[9] != $digito1) {
