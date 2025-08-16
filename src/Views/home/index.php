@@ -310,9 +310,15 @@ ARQUIVO: src/Views/home/index.php
 <section class="comoComprar-section d-flex justify-content-center py-5">
     <div class="comoComprar-conteudo d-flex flex-column justify-content-center">
         <div class="comoComprar-textos d-flex flex-column align-items-center justify-content-center">
-            <div class="processo d-flex flex-column justify-content-center align-items-center">
-                <p class="processo-texto me-5 pe-4">PROCESSO -----------</p>
+            <div class="d-flex justify-content-start">
+                <p class="processo-texto">PROCESSO</p>
                 <div class="icone-detalhe mx-1 mt-2"></div>
+                <div class="icone-detalhe mx-1 mt-2"></div>
+                <div class="icone-detalhe mx-1 mt-2"></div>
+                <div class="icone-detalhe mx-1 mt-2"></div>
+                <div class="icone-detalhe mx-1 mt-2"></div>
+            </div>
+            <div class="processo d-flex flex-column justify-content-center align-items-center">
                 <h5 class="card-title">HOW TO MINT?</h5>
             </div>
         </div>

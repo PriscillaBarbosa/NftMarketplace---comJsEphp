@@ -197,13 +197,7 @@
             font-family: var(--fonte-titulos);
             font-weight: 700;
             font-size: .7rem;
-        }
-
-        .icone-detalhe {
-            width: .5rem;
-            height: .5rem;
-            border-radius: 50%;
-            background-color: var(--texto-destaque);
+            letter-spacing: 2px;
         }
 
         .beneficios {
@@ -213,24 +207,25 @@
     }  
 }
 
+.icone-detalhe {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: var(--texto-destaque);
+}
+
 .comoComprar-section {
     background: var(--fundo-bg-feature);
 
     .comoComprar-conteudo {
         width: 70%;
 
-        .comoComprar-textos {
-
-            .processo {
-
-                .processo-texto {
-
-                    color: var(--texto-destaque);
-                    font-family: var(--fonte-titulos);
-                    font-size: .8rem;
-                    font-weight: 700;
-                }
-            }
+        .processo-texto {
+            color:var(--texto-destaque);
+            font-family: var(--fonte-titulos);
+            font-weight: 700;
+            font-size: .7rem;
+            letter-spacing: 2px;
         }
 
         .comoComprar-etapas {
