@@ -1,7 +1,26 @@
+.background-form {
+    background: var(--fundo-bg-feature);
+
+    .btn-medium {
+        background: var(--btn-cor);
+        border: 1px solid var(--btn-border);
+        color: var(--btn-color);
+        font-family: var(--btn-titulos);
+
+        &:hover {
+            background: var(--btn-hover);
+            color: var(--btn-hover-texto)
+        }
+    }
+}
+
+
 .form-titulo {
     color:var(--texto-cor-principal);
+    font-style: var( --fonte-titulos);
 }
 
 .form-label {
     color: var(--texto-cor-principal);
+    font-style: var(--fonte-textos);
 }
