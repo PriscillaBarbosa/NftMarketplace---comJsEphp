@@ -1,0 +1,9 @@
+
+.footer-titulo {
+    font-family: var(--fonte-titulos);
+}
+
+.footer-texto {
+    color: var(--texto-cor-terciaria);
+    font-size: .7rem;
+}

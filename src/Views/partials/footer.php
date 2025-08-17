@@ -5,11 +5,11 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4">
-                <h5 class="fw-bold mb-3">
-                    <i class="fas fa-cube me-2"></i>
-                    NFT Marketplace
+                <h5 class="footer-titulo mb-3">
+                    <img src="assets/img/Margin.svg" alt="Simbolo" class="simbolo mb-0 pt-1">
+                    Lobix
                 </h5>
-                <p class="text-muted">
+                <p class="footer-texto">
                     O maior marketplace de NFTs do Brasil. Conectando artistas e colecionadores através da tecnologia blockchain.
                 </p>
                 <div class="d-flex gap-3">
@@ -29,42 +29,42 @@
             </div>
             
             <div class="col-lg-2 col-md-6">
-                <h6 class="fw-bold mb-3">Marketplace</h6>
+                <h6 class="footer-titulo mb-3">Marketplace</h6>
                 <ul class="list-unstyled">
-                    <li><a href="/nfts" class="text-muted text-decoration-none">Explorar NFTs</a></li>
-                    <li><a href="/categories" class="text-muted text-decoration-none">Categorias</a></li>
-                    <li><a href="/collections" class="text-muted text-decoration-none">Coleções</a></li>
-                    <li><a href="/rankings" class="text-muted text-decoration-none">Rankings</a></li>
+                    <li><a href="/nfts" class="footer-texto text-decoration-none">Explorar NFTs</a></li>
+                    <li><a href="/categories" class="footer-texto text-decoration-none">Categorias</a></li>
+                    <li><a href="/collections" class="footer-texto text-decoration-none">Coleções</a></li>
+                    <li><a href="/rankings" class="footer-texto text-decoration-none">Rankings</a></li>
                 </ul>
             </div>
             
             <div class="col-lg-2 col-md-6">
-                <h6 class="fw-bold mb-3">Criar</h6>
+                <h6 class="footer-titulo mb-3">Criar</h6>
                 <ul class="list-unstyled">
-                    <li><a href="/create" class="text-muted text-decoration-none">Criar NFT</a></li>
-                    <li><a href="/collection/create" class="text-muted text-decoration-none">Nova Coleção</a></li>
-                    <li><a href="/guides" class="text-muted text-decoration-none">Guias</a></li>
-                    <li><a href="/fees" class="text-muted text-decoration-none">Taxas</a></li>
+                    <li><a href="/create" class="footer-texto text-decoration-none">Criar NFT</a></li>
+                    <li><a href="/collection/create" class="footer-texto text-decoration-none">Nova Coleção</a></li>
+                    <li><a href="/guides" class="footer-texto text-decoration-none">Guias</a></li>
+                    <li><a href="/fees" class="footer-texto text-decoration-none">Taxas</a></li>
                 </ul>
             </div>
             
             <div class="col-lg-2 col-md-6">
-                <h6 class="fw-bold mb-3">Suporte</h6>
+                <h6 class="footer-titulo mb-3">Suporte</h6>
                 <ul class="list-unstyled">
-                    <li><a href="/help" class="text-muted text-decoration-none">Central de Ajuda</a></li>
-                    <li><a href="/contact" class="text-muted text-decoration-none">Contato</a></li>
-                    <li><a href="/terms" class="text-muted text-decoration-none">Termos de Uso</a></li>
-                    <li><a href="/privacy" class="text-muted text-decoration-none">Privacidade</a></li>
+                    <li><a href="/help" class="footer-texto text-decoration-none">Central de Ajuda</a></li>
+                    <li><a href="/contact" class="footer-texto text-decoration-none">Contato</a></li>
+                    <li><a href="/terms" class="footer-texto text-decoration-none">Termos de Uso</a></li>
+                    <li><a href="/privacy" class="footer-texto text-decoration-none">Privacidade</a></li>
                 </ul>
             </div>
             
             <div class="col-lg-2 col-md-6">
-                <h6 class="fw-bold mb-3">Empresa</h6>
+                <h6 class="footer-titulo mb-3">Empresa</h6>
                 <ul class="list-unstyled">
-                    <li><a href="/about" class="text-muted text-decoration-none">Sobre Nós</a></li>
-                    <li><a href="/careers" class="text-muted text-decoration-none">Carreiras</a></li>
-                    <li><a href="/blog" class="text-muted text-decoration-none">Blog</a></li>
-                    <li><a href="/press" class="text-muted text-decoration-none">Imprensa</a></li>
+                    <li><a href="/about" class="footer-texto text-decoration-none">Sobre Nós</a></li>
+                    <li><a href="/careers" class="footer-texto text-decoration-none">Carreiras</a></li>
+                    <li><a href="/blog" class="footer-texto text-decoration-none">Blog</a></li>
+                    <li><a href="/press" class="footer-texto text-decoration-none">Imprensa</a></li>
                 </ul>
             </div>
         </div>
@@ -73,12 +73,12 @@
         
         <div class="row align-items-center">
             <div class="col-md-6">
-                <p class="text-muted mb-0">&copy; 2024 NFT Marketplace. Todos os direitos reservados.</p>
+                <p class="mb-0">&copy; 2025 Lobix Marketplace. Todos os direitos reservados.</p>
             </div>
             <div class="col-md-6 text-md-end">
-                <span class="text-muted">Feito com</span>
+                <span class="footer-titulo">Feito com</span>
                 <i class="fas fa-heart text-danger mx-1"></i>
-                <span class="text-muted">no Brasil</span>
+                <span class="footer-titulo">no Brasil</span>
             </div>
         </div>
     </div>
