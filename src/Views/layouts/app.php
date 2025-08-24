@@ -33,7 +33,10 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
         <script src="/assets/js/components/cube3d.js"></script>
+        <script src="/assets/js/components/fade.js"></script>
         <script src="/assets/js/components/numbers.js"></script>
+        <script src="/assets/js/components/pulse.js"></script>
+        <script src="/assets/js/components/validation-form.js"></script>
         <script src="/assets/js/main.js"></script>
 
 </body>

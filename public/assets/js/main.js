@@ -70,22 +70,7 @@ const App = {
             rootMargin: '0px 0px -50px 0px'
         });
 
-        // Criar observer 
-       // const observer = new IntersectionObserver((entries) => {
-            //console.log('👁️ Observer detectou mudanças:', entries.length);
-            
-           // entries.forEach(entry => {
-                //console.log('📍 Elemento:', entry.target, 'Visível:', entry.isIntersecting);
-                
-                //if (entry.isIntersecting) {
-                    //entry.target.classList.add('visible');
-                    //console.log('✨ ANIMOU!', entry.target);
-               // }
-           // });
-       // }, { 
-           // threshold: 0.1, // Mudei para 0.1 (mais sensível)
-           // rootMargin: '0px 0px -50px 0px'
-       // });
+
 
         // Observar elementos
         elementos.forEach(el => {
