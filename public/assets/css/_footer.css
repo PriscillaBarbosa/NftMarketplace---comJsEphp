@@ -1,3 +1,4 @@
+
 .nav-footer {
     flex-direction: row;
     font-family: var( --fonte-titulos);
@@ -9,4 +10,3 @@
     font-family: var( --fonte-titulos);
     font-size: .7rem;
     letter-spacing: 1px;
-}
