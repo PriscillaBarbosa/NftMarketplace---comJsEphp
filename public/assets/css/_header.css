@@ -6,7 +6,7 @@
     .navbar-nav {
     color: var(--texto-cor-principal);
     font-family: var(--fonte-titulos);
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     }
 
     .simbolo {
@@ -15,7 +15,7 @@
     }
 
     .nav-link {
-        font-size: .6rem;
+        font-size: .7rem;
         color: var(--texto-cor-principal);
     }
 }
