@@ -25,6 +25,7 @@ require_once '../src/Core/Router.php';
 require_once '../src/Core/Database.php';
 require_once '../src/Controllers/HomeController.php';
 require_once '../src/Controllers/RegisterController.php';
+require_once '../src/Controllers/NFTController.php'; 
 
 // Inicializar o roteador
 $router = new Router();
@@ -34,6 +35,10 @@ $router->get('/', 'HomeController@index');
 $router->get('/home', 'HomeController@index');
 $router->get('/register', 'RegisterController@index');        // ← nova rota (mostra o form)
 $router->post('/register', 'RegisterController@store');       // ← nova rota (processa os dados)
+// Novas rotas para NFTs
+$router->get('/nft', 'NFTController@index');        // Galeria
+$router->get('/nfts', 'NFTController@index');       // Alternativa
+$router->get('/galeria', 'NFTController@index');    // Alternativa em português
 
 
 // Processar a requisição

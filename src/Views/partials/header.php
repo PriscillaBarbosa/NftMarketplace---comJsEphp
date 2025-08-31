@@ -51,7 +51,7 @@ ARQUIVO: src/Views/partials/header.php
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/profile">
+                    <a class="nav-link" href="/register">
                         <i class="fa fa-question-circle me-1"></i>
                         Novo
                     </a>

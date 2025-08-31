@@ -1,0 +1,326 @@
+[Sat Aug 16 23:55:37 2025] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41092 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41092 [200]: GET /
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41092 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41098 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41108 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41098 [200]: GET /assets/css/style.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41124 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41108 [200]: GET /assets/img/mascote/mascote-happy.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41124 [200]: GET /assets/img/Margin.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41098 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41108 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41124 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41140 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41154 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41156 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41140 [200]: GET /assets/img/mascote/mascote-golden.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41140 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41158 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41174 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41154 [200]: GET /assets/js/components/cube3d.js
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41154 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41156 [200]: GET /assets/js/components/numbers.js
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41156 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41184 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41200 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41158 [200]: GET /assets/js/main.js
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41158 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41184 [200]: GET /assets/css/_variaveis.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41200 [200]: GET /assets/css/_app.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41174 [200]: GET /assets/img/mascote/mascote-cyber.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41184 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41200 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41174 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41214 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41226 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41228 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41232 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41248 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41214 [200]: GET /assets/css/_header.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41226 [200]: GET /assets/css/_cube3d.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41228 [200]: GET /assets/css/_numbers.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41232 [200]: GET /assets/css/_card.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41248 [200]: GET /assets/css/_buttons.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41214 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41226 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41228 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41232 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41248 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41256 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41260 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41270 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41278 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41282 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41256 [200]: GET /assets/css/_fade.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41256 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41260 [200]: GET /assets/css/_pulse.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41260 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41270 [200]: GET /assets/css/_page-home.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41270 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41278 [200]: GET /assets/css/_page-register.css
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41278 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41282 [200]: GET /assets/img/mascote/mascote-rainbow.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41282 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41290 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41304 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41290 [200]: GET /assets/img/mascote/mascote-caolho.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41290 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41308 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41320 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41336 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41304 [200]: GET /assets/img/mascote/mascote-party.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41308 [200]: GET /assets/img/mascote/mascote-neon.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41304 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41308 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41320 [200]: GET /assets/img/Componente1.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41320 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41352 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41336 [200]: GET /assets/img/Componente2.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41336 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41352 [200]: GET /assets/img/Componente3.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41352 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41356 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41368 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41380 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41356 [200]: GET /assets/img/Componente4.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41356 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41368 [200]: GET /assets/img/Componente5.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41368 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41394 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41380 [200]: GET /assets/img/Componente6.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41394 [200]: GET /assets/img/Componente7.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41380 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41394 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41396 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41412 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41420 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41396 [200]: GET /assets/img/mascote/mascote-happy.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41396 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41412 [200]: GET /assets/img/mascote/mascote-rainbow.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41422 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41412 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41420 [200]: GET /assets/img/mascote/mascote-cyber.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41420 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41422 [200]: GET /assets/img/mascote/mascote-golden.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41422 Closing
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41432 Accepted
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41432 [200]: GET /assets/img/mascote/mascote-neon.svg
+[Sat Aug 16 23:56:29 2025] 127.0.0.1:41432 Closing
+[Sat Aug 16 23:56:31 2025] 127.0.0.1:41438 Accepted
+[Sat Aug 16 23:56:31 2025] 127.0.0.1:41438 [404]: GET /favicon.ico - No such file or directory
+[Sat Aug 16 23:56:31 2025] 127.0.0.1:41438 Closing
+[Sat Aug 16 23:56:42 2025] 127.0.0.1:54208 Accepted
+[Sat Aug 16 23:56:42 2025] 127.0.0.1:54212 Accepted
+[Sat Aug 16 23:56:42 2025] 127.0.0.1:54208 [404]: GET /profile
+[Sat Aug 16 23:56:42 2025] 127.0.0.1:54208 Closing
+[Sat Aug 16 23:59:06 2025] 127.0.0.1:54212 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Aug 16 23:59:06 2025] 127.0.0.1:54212 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39456 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39468 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39456 [200]: GET /
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39456 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39482 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39484 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39488 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39490 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39468 [200]: GET /assets/css/style.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39468 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39482 [200]: GET /assets/img/mascote/mascote-happy.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39482 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39484 [200]: GET /assets/img/Margin.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39484 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39488 [200]: GET /assets/img/mascote/mascote-golden.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39488 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39490 [200]: GET /assets/js/components/cube3d.js
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39490 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39502 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39502 [200]: GET /assets/js/components/numbers.js
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39502 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39514 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39520 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39532 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39514 [200]: GET /assets/css/_variaveis.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39520 [200]: GET /assets/css/_app.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39514 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39520 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39534 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39532 [200]: GET /assets/css/_cube3d.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39532 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39546 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39534 [200]: GET /assets/css/_header.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39534 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39546 [200]: GET /assets/css/_numbers.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39546 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39558 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39558 [200]: GET /assets/css/_card.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39558 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39560 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39570 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39574 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39584 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39592 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39560 [200]: GET /assets/css/_pulse.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39570 [200]: GET /assets/css/_page-home.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39560 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39570 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39574 [200]: GET /assets/css/_buttons.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39574 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39584 [200]: GET /assets/css/_fade.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39584 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39596 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39612 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39592 [200]: GET /assets/css/_page-register.css
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39592 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39596 [200]: GET /assets/js/main.js
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39596 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39612 [200]: GET /assets/img/mascote/mascote-cyber.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39612 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39618 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39618 [200]: GET /assets/img/mascote/mascote-rainbow.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39618 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39628 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39642 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39628 [200]: GET /assets/img/mascote/mascote-caolho.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39628 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39642 [200]: GET /assets/img/mascote/mascote-neon.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39654 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39642 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39668 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39654 [200]: GET /assets/img/mascote/mascote-party.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39668 [200]: GET /assets/img/Componente1.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39654 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39668 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39680 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39694 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39680 [200]: GET /assets/img/Componente2.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39680 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39694 [200]: GET /assets/img/Componente3.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39694 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39706 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39710 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39706 [200]: GET /assets/img/Componente4.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39710 [200]: GET /assets/img/Componente5.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39706 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39710 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39726 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39726 [200]: GET /assets/img/Componente6.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39726 Closing
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39736 Accepted
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39736 [200]: GET /assets/img/Componente7.svg
+[Sun Aug 17 00:06:57 2025] 127.0.0.1:39736 Closing
+[Sun Aug 17 00:06:58 2025] 127.0.0.1:39748 Accepted
+[Sun Aug 17 00:06:58 2025] 127.0.0.1:39748 [404]: GET /favicon.ico - No such file or directory
+[Sun Aug 17 00:06:58 2025] 127.0.0.1:39748 Closing
+[Sun Aug 17 00:07:05 2025] 127.0.0.1:48196 Accepted
+[Sun Aug 17 00:07:05 2025] 127.0.0.1:48198 Accepted
+[Sun Aug 17 00:07:05 2025] 127.0.0.1:48196 [200]: GET /register
+[Sun Aug 17 00:07:05 2025] 127.0.0.1:48196 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48202 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48218 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48232 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48242 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48248 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48198 [200]: GET /assets/css/style.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48198 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48202 [200]: GET /assets/img/mascote/mascote-happy.svg
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48218 [200]: GET /assets/img/Margin.svg
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48202 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48218 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48232 [200]: GET /assets/js/components/cube3d.js
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48242 [200]: GET /assets/js/components/numbers.js
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48248 [200]: GET /assets/js/main.js
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48232 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48242 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48248 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48250 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48252 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48260 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48262 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48278 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48250 [200]: GET /assets/css/_variaveis.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48252 [200]: GET /assets/css/_app.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48260 [200]: GET /assets/css/_header.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48262 [200]: GET /assets/css/_cube3d.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48278 [200]: GET /assets/css/_numbers.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48250 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48252 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48260 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48262 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48278 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48282 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48294 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48310 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48322 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48328 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48282 [200]: GET /assets/css/_card.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48294 [200]: GET /assets/css/_buttons.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48282 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48294 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48310 [200]: GET /assets/css/_fade.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48310 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48322 [200]: GET /assets/css/_pulse.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48322 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48342 Accepted
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48328 [200]: GET /assets/css/_page-home.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48328 Closing
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48342 [200]: GET /assets/css/_page-register.css
+[Sun Aug 17 00:07:06 2025] 127.0.0.1:48342 Closing
+[Sun Aug 17 00:27:56 2025] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Sun Aug 17 00:28:02 2025] 127.0.0.1:44944 Accepted
+[Sun Aug 17 00:28:02 2025] 127.0.0.1:44948 Accepted
+[Sun Aug 17 00:28:02 2025] 127.0.0.1:44944 [200]: GET /register
+[Sun Aug 17 00:28:02 2025] 127.0.0.1:44944 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44958 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44958 [200]: GET /assets/img/mascote/mascote-happy.svg
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44948 [200]: GET /assets/css/style.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44958 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44948 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44960 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44976 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44990 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44998 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44960 [200]: GET /assets/img/Margin.svg
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44960 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44976 [200]: GET /assets/js/components/cube3d.js
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44990 [200]: GET /assets/js/components/numbers.js
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44998 [200]: GET /assets/js/main.js
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44976 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44990 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:44998 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45010 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45012 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45016 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45010 [200]: GET /assets/css/_variaveis.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45010 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45020 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45036 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45044 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45012 [200]: GET /assets/css/_app.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45016 [200]: GET /assets/css/_header.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45012 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45016 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45020 [200]: GET /assets/css/_footer.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45036 [200]: GET /assets/css/_cube3d.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45044 [200]: GET /assets/css/_numbers.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45020 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45036 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45044 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45054 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45062 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45064 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45054 [200]: GET /assets/css/_card.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45062 [200]: GET /assets/css/_buttons.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45064 [200]: GET /assets/css/_fade.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45054 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45062 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45064 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45074 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45076 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45084 Accepted
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45074 [200]: GET /assets/css/_pulse.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45074 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45076 [200]: GET /assets/css/_page-home.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45076 Closing
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45084 [200]: GET /assets/css/_page-register.css
+[Sun Aug 17 00:28:03 2025] 127.0.0.1:45084 Closing
