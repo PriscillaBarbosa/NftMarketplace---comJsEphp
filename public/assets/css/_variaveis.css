@@ -7,6 +7,7 @@
     --fundo-bg-feature: #0f172b;
     --fundo-bg-titulo: #0b3b32;
     --fundo-tx-gradiente: linear-gradient(to right, #05DF72, #2B7FFF);
+    --fundo-bg-input: #1E2939;
     --texto-cor-principal: #ffff;
     --texto-cor-secundario: #99A1AF;
     --texto-cor-terciaria: #b3becd;
@@ -20,6 +21,7 @@
     --borda-destaque: #05df72;
     --borda-destaque-verde: rgba(5, 223, 114, 0.3);
     --borda-card-cinza: #364153;
+    --borda-inputs: #4A5565;
     --card-bg-maior: rgba(30, 41, 57, 0.5);
     --card-bg-menor: #1E2939;
 

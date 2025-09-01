@@ -9,6 +9,23 @@ const App = {
         this.setupEventListeners();
         this.initComponents();
         this.initScrollReveal();
+        this.initSearch();
+    },
+
+    initSearch() {
+        // Só inicializar se estiver na página de galeria
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            this.components.nftSearch = new NFTSearch({
+                searchInputId: 'searchInput',
+                gridSelector: '.nft-grid',
+                cardSelector: '.card.nft-card', 
+                noResultsSelector: '#noResults',
+                statsSelector: '#searchStats',
+                countSelector: '#resultCount'
+            });
+            console.log('✅ Sistema de busca inicializado');
+        }
     },
 
     // Inicializa componentes (SEM ERRO)

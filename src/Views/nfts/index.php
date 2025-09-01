@@ -27,8 +27,16 @@ various expressions and unique digital art pieces.</p>
     <!-- Filtros -->
     <section class="filters-section">
         <div class="container">
-            <div class="filters-wrapper">
-                <!-- Categorias -->
+            <div class="filters-wrapper d-flex justify-content-between align-items-center">
+                <div class="pesquisar">
+                    <i class="fas fa-search"></i>   
+                    <input type="text" 
+                    class="search-input form-control" 
+                    id="searchInput"
+                    placeholder="Pesquisar NFTs... "
+                    autocomplete="off">
+                </div>
+                <!-- Categorias 
                 <div class="filter-group">
                     <label>Categorias:</label>
                     <div class="filter-buttons">
@@ -38,39 +46,40 @@ various expressions and unique digital art pieces.</p>
                             </button>
                         <?php endforeach; ?>
                     </div>
-                </div>
+                </div> -->
+                <div class="grupos-filtros d-flex justify-content-center align-items-center">
+                    <!-- Faixa de Preço -->
+                    <div class="filter-group me-4">
+                        <select class="filter-select" id="price-filter">
+                            <option value="">Todos os preços</option>
+                            <?php foreach($filters['price_ranges'] as $range): ?>
+                                <option value="<?= $range ?>"><?= $range ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
 
-                <!-- Faixa de Preço -->
-                <div class="filter-group">
-                    <label>Preço:</label>
-                    <select class="filter-select" id="price-filter">
-                        <option value="">Todos os preços</option>
-                        <?php foreach($filters['price_ranges'] as $range): ?>
-                            <option value="<?= $range ?>"><?= $range ?></option>
-                        <?php endforeach; ?>
-                    </select>
-                </div>
-
-                <!-- Status -->
-                <div class="filter-group">
-                    <label>Status:</label>
-                    <select class="filter-select" id="status-filter">
-                        <option value="">Todos os status</option>
-                        <?php foreach($filters['status'] as $status): ?>
-                            <option value="<?= $status ?>"><?= ucfirst($status) ?></option>
-                        <?php endforeach; ?>
-                    </select>
+                    <!-- Status -->
+                    <div class="filter-group">
+                        <select class="filter-select" id="status-filter">
+                            <option value="">Todos os status</option>
+                            <?php foreach($filters['status'] as $status): ?>
+                                <option value="<?= $status ?>"><?= ucfirst($status) ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    
+    
     <!-- Grid de NFTs -->
     <section class="nft-grid-section">
         <div class="container">
             <div class="nft-grid">
                 <?php foreach($nfts as $nft): ?>
-                    <div class="nft-card" data-category="<?= strtolower($nft['category']) ?>" data-status="<?= $nft['status'] ?>">
+                    <div class="card nft-card fade-up h-100 d-flex justify-content-center align-items-center mx-3" data-category="<?= strtolower($nft['category']) ?>" data-status="<?= $nft['status'] ?>">
                         <!-- Imagem do NFT -->
                         <div class="nft-image">
                             <img src="<?= $nft['image'] ?>" alt="<?= $nft['title'] ?>" loading="lazy">
@@ -118,6 +127,15 @@ various expressions and unique digital art pieces.</p>
                 <?php endforeach; ?>
             </div>
         </div>
+
+        <div class="no-results text-center" id="noResults" style="display: none;">
+            <i class="fas fa-search mb-4" style="font-size: 4rem; color: rgba(0, 255, 135, 0.5);"></i>
+            <h3 style="color: rgba(255, 255, 255, 0.8); margin-bottom: 1rem;">Nenhum NFT encontrado</h3>
+            <p style="color: rgba(255, 255, 255, 0.6); margin-bottom: 2rem;">Tente usar outros termos de busca</p>
+            <button class="btn btn-primary" onclick="App.components.nftSearch.clear()">
+                <i class="fas fa-redo me-2"></i>Ver Todos os NFTs
+            </button>
+        </div>
     </section>
 
     <!-- Paginação (mockado) -->
@@ -140,59 +158,14 @@ various expressions and unique digital art pieces.</p>
 
 
 
-.filters-section {
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 30px;
-}
 
-.filters-wrapper {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-.filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
 
-.filter-group label {
-    font-weight: 600;
-    color: #333;
-}
 
-.filter-buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
 
-.filter-btn {
-    padding: 8px 16px;
-    border: 2px solid #ddd;
-    background: white;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
 
-.filter-btn:hover,
-.filter-btn.active {
-    background: #667eea;
-    color: white;
-    border-color: #667eea;
-}
 
-.filter-select {
-    padding: 8px 12px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    background: white;
-    cursor: pointer;
-}
+
 
 .nft-grid {
     display: grid;

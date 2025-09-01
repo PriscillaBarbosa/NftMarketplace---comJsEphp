@@ -3,12 +3,10 @@
     text-align: center;
     padding: 40px 0;
     color: var(--texto-cor-principal);
-    margin-bottom: 30px;
 }
 
 .gallery-title {
     font-size: 1.5rem;
-    margin-bottom: 10px;
     font-weight: 400;
     font-family: var(--fonte-titulos);
 }
@@ -18,4 +16,240 @@
     font-family: var(-fonte-textos);
     color: var(--texto-cor-secundario);
     opacity: 0.9;
+}
+
+.filters-section {
+    background: var(--fundo-bg-feature);
+    padding: 20px 0;
+    border-bottom: 1px solid var(--borda-inputs);
+    color: var(--texto-cor-principal)
+}
+
+.filters-section {
+    padding: 20px 0;
+}
+
+
+.filters-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.filter-group label {
+    font-weight: 400;
+    color: var(--texto-cor-principal);
+    font-family: var(--fonte-textos);
+}
+
+.filter-select,
+.form-control {
+    padding: 8px 12px;
+    border: 2px solid var( --borda-inputs);
+    border-radius: 6px;
+    background: var(--fundo-bg-input);
+    cursor: pointer;
+    color: var(--texto-cor-secundario);
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border: 2px solid var(--borda-inputs);
+    background: var(--fundo-bg-input);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--texto-cor-principal);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--fundo-bg-input);
+    color: var(--texto-cor-secundario);
+    border-color: var(--borda-inputs);
+}
+
+.pesquisar {
+    position: relative;
+}
+
+.fa-search {
+    position:absolute;
+    right: 15px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    color:var(--texto-cor-secundario);
+}
+
+
+/* ÍCONE DENTRO DO INPUT DE BUSCA */
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    padding-right: 50px !important; /* Espaço para o ícone */
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 15px rgba(0, 255, 135, 0.3) !important;
+    border-color: #00ff87 !important;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00ff87;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+    pointer-events: none; /* Permite clicar através do ícone no input */
+}
+
+.search-icon:hover {
+    color: #00ffaa;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Torna o ícone clicável quando necessário */
+.search-icon.clickable {
+    pointer-events: all;
+}
+
+/* ESTATÍSTICAS DA BUSCA */
+.search-results-info {
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.search-stats {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin: 0;
+}
+
+.search-stats #resultCount {
+    color: #00ff87;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ANIMAÇÕES DOS CARDS DURANTE A BUSCA */
+.nft-card {
+    transition: all 0.4s ease;
+}
+
+.nft-card.search-visible {
+    animation: searchSlideIn 0.5s ease forwards;
+}
+
+@keyframes searchSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ESTADO "SEM RESULTADOS" */
+.no-results {
+    padding: 4rem 2rem;
+    display: none;
+}
+
+.no-results.show {
+    display: block;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* LOADING STATE (opcional) */
+.search-loading .search-icon {
+    animation: searchSpinner 1s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes searchSpinner {
+    from { transform: translateY(-50%) rotate(0deg); }
+    to { transform: translateY(-50%) rotate(360deg); }
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .search-icon {
+        right: 12px;
+        font-size: 14px;
+    }
+    
+    .search-input {
+        padding-right: 40px !important;
+    }
+    
+    .no-results {
+        padding: 3rem 1rem;
+    }
+}
+
+/* INTEGRAÇÃO COM BOOTSTRAP (se necessário) */
+.search-container .form-control.search-input {
+    padding-right: 50px;
+}
+
+/* DESTACAR CARDS ENCONTRADOS (opcional) */
+.nft-card.search-match {
+    border: 2px solid rgba(0, 255, 135, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 255, 135, 0.2);
+}
+
+/* FADE OUT para cards não encontrados */
+.nft-card.search-hidden {
+    opacity: 0.3;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+/* SMOOTH GRID REORGANIZATION */
+.nft-grid {
+    transition: all 0.3s ease;
+}
+
+/* ESTILO PARA O CONTADOR DE RESULTADOS */
+.search-stats.no-results-text {
+    color: #ff6b6b;
+}
+
+.search-stats.has-results {
+    color: #00ff87;
 }
