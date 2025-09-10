@@ -1,0 +1,20 @@
+.tema-claro {
+    --background-color: #f8f8f8;
+  --text-color: #121212;
+  --primary-color: #007acc;
+  --card-background: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Efeito suave na transição */
+}
+
+.card {
+  background-color: var(--card-background);
+}
+
+a {
+  color: var(--primary-color);
+}

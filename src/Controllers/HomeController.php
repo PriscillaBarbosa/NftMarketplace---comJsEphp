@@ -31,7 +31,7 @@ class HomeController {
                 'perfil' => 'raimbow',
                 'status' => 'original',
                 'image' => '/../assets/img/mascote/mascote-rainbow.svg',
-                'creator' => 'Lobix'
+                'creator' => 'Shibu'
             ],
                         
             [
@@ -42,7 +42,7 @@ class HomeController {
                 'perfil' => 'cyber',
                 'status' => 'cool',
                 'image' => '/../assets/img/mascote/mascote-cyber.svg',
-                'creator' => 'Lobix'
+                'creator' => 'Shibu'
             ],
             [
                 'id' => 3,
@@ -52,7 +52,7 @@ class HomeController {
                 'perfil' => 'piscando',
                 'status' => 'gold',
                 'image' => '/../assets/img/mascote/mascote-golden.svg',
-                'creator' => 'Lobix'
+                'creator' => 'Shibu'
             ],
              [
                 'id' => 4,
@@ -62,7 +62,7 @@ class HomeController {
                 'perfil' => 'surpreso',
                 'status' => 'neon',
                 'image' => '/../assets/img/mascote/mascote-neon.svg',
-                'creator' => 'Lobix'
+                'creator' => 'Shibu'
              ],
         ];
     }

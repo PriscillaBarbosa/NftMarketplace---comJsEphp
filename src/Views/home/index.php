@@ -130,7 +130,7 @@ ARQUIVO: src/Views/home/index.php
             <div class="col-12 ">
                 <div class="d-flex flex-column justify-content-items align-items-center mb-5">
                     <h2 class="fade-up display-5 fw-bold title-section mt-5 mb-5">NFTs em Destaque</h2>
-                    <p class="lead">Descubra nossa coleção exclusiva de NFTs com arte digital exclusiva e nosso adorado mascote Shibu do universo Lobix.</p>
+                    <p class="lead">Descubra nossa coleção exclusiva de NFTs com arte digital exclusiva e nosso adorado mascote Shibu.</p>
                 </div>
                 <div class="d-flex justify-content-center align-items-center fade-up my-5 py-3">
                     <div class="d-flex ">

@@ -35,7 +35,7 @@ class NFTController {
                 'perfil' => 'rainbow',
                 'status' => 'original',
                 'image' => '/../assets/img/mascote/mascote-rainbow.svg',
-                'creator' => 'Lobix',
+                'creator' => 'Shibu',
                 'category' => 'Arte Digital'
             ],
             [
@@ -46,7 +46,7 @@ class NFTController {
                 'perfil' => 'cyber',
                 'status' => 'cool',
                 'image' => '/../assets/img/mascote/mascote-cyber.svg',
-                'creator' => 'Lobix',
+                'creator' => 'Shibu',
                 'category' => 'Futurista'
             ],
             [
@@ -57,7 +57,7 @@ class NFTController {
                 'perfil' => 'piscando',
                 'status' => 'gold',
                 'image' => '/../assets/img/mascote/mascote-golden.svg',
-                'creator' => 'Lobix',
+                'creator' => 'Shibu',
                 'category' => 'Luxo'
             ],
             [
@@ -68,7 +68,7 @@ class NFTController {
                 'perfil' => 'surpreso',
                 'status' => 'neon',
                 'image' => '/../assets/img/mascote/mascote-neon.svg',
-                'creator' => 'Lobix',
+                'creator' => 'Shibu',
                 'category' => 'Neon'
             ],
             [
@@ -79,7 +79,7 @@ class NFTController {
                 'perfil' => 'classic',
                 'status' => 'rare',
                 'image' => '/../assets/img/mascote/mascote-rainbow.svg',
-                'creator' => 'Lobix',
+                'creator' => 'Shibu',
                 'category' => 'Clássico'
             ],
             [
@@ -90,7 +90,7 @@ class NFTController {
                 'perfil' => 'fire',
                 'status' => 'legendary',
                 'image' => '/../assets/img/mascote/mascote-cyber.svg',
-                'creator' => 'Lobix',
+                'creator' => 'Shibu',
                 'category' => 'Lendário'
             ]
         ];
@@ -121,8 +121,8 @@ class NFTController {
                 'cool',
                 'gold',
                 'neon',
-                'rare',
-                'legendary'
+                'raro',
+                'legendário'
             ]
         ];
     }

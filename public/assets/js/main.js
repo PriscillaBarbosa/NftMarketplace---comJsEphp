@@ -30,8 +30,9 @@ const App = {
 
     // Inicializa componentes (SEM ERRO)
     initComponents() {
+        this.components.tema = new trocarTema('claroBtn'); 
+
         const cubeElement = document.querySelector('#hero-cube');
-        
         if (cubeElement) {
             // Só tentar criar o cubo se a classe existir
             if (typeof Cube3D !== 'undefined') {
@@ -98,6 +99,7 @@ const App = {
     
     // Event Listeners globais
     setupEventListeners() {
+
         document.addEventListener('click', (e) => {
             if (e.target.matches('[data-mobile-toggle]')) {
                 this.toggleMobileMenu();

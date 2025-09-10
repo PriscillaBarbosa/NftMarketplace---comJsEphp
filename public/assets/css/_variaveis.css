@@ -50,4 +50,8 @@
 --tag-preco: #05df72;
 --tag-favoritos: rgb(163, 9, 9);
 
+/****tema claro****/
+--temaClaro-texto: black;
+--temaClaro-bg: white;
+
 }

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     
 </head>
-<body>
+<body class="tema-claro">
     
         <!-- Header -->
         <?php include '../src/Views/partials/header.php'; ?>
@@ -37,6 +37,8 @@
         <script src="/assets/js/components/numbers.js"></script>
         <script src="/assets/js/components/pulse.js"></script>
         <script src="/assets/js/components/validation-form.js"></script>
+        <script src="/assets/js/components/tema-claro.js"></script>
+        <script src="/assets/js/components/search.js"></script>
         <script src="/assets/js/main.js"></script>
 
 </body>

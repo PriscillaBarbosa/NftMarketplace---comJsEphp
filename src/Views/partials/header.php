@@ -11,7 +11,7 @@ ARQUIVO: src/Views/partials/header.php
         </a>
         <div class="header-logo-titulo d-flex align-items-center justify-content-center">
             <img src="assets/img/Margin.svg" alt="Simbolo" class="simbolo mb-0 pt-1">
-            <h1 class="header-titulo mb-0">Lobix</h1>
+            <h1 class="header-titulo mb-0">Shibu</h1>
         </div>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -54,6 +54,11 @@ ARQUIVO: src/Views/partials/header.php
                     <a class="nav-link" href="/register">
                         <i class="fa fa-question-circle me-1"></i>
                         Novo
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light btn-sm" id="claroBtn">
+                        <i class="fa-solid fa-sun"></i>
                     </a>
                 </li>
                 <li class="nav-item ms-2">

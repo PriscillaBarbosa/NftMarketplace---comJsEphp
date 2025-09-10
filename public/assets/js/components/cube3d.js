@@ -1,54 +1,46 @@
-// Referência do cubo
-        const cube = document.getElementById('hero-cube');
-        let isPaused = false;
+class Cube3D {
+    constructor(selector) {
+        // 1. Encontra o cubo usando o seletor passado pelo main.js
+        this.cube = document.querySelector(selector);
+        this.isPaused = false;
 
-        // Adiciona mais partículas dinamicamente
-        function createParticles() {
-            const particleCount = 20;
-            
-            for (let i = 0; i < particleCount; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.top = Math.random() * 100 + '%';
-                particle.style.left = (60 + Math.random() * 40) + '%'; // Só no lado direito
-                particle.style.animationDelay = Math.random() * 6 + 's';
-                particle.style.animationDuration = (4 + Math.random() * 4) + 's';
-                document.body.appendChild(particle);
-            }
+        // 2. VERIFICAÇÃO DE SEGURANÇA:
+        //    Só continua se o cubo realmente existir na página.
+        if (!this.cube) {
+            console.warn(`Elemento do Cubo com seletor "${selector}" não foi encontrado.`);
+            return; // Para a execução se não encontrar
         }
 
-         // Controle por click - pausa/play
-        cube.addEventListener('click', function() {
-            if (isPaused) {
-                cube.style.animationPlayState = 'running';
-                isPaused = false;
-                console.log('▶️ Cubo retomado');
+        // 3. Chamei os métodos para inicializar tudo
+        this.setupEventListeners();
+        this.createParticles();
+    }
+
+    // Método para criar as partículas
+    createParticles() {
+        const particleCount = 20;
+        for (let i = 0; i < particleCount; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.left = (60 + Math.random() * 40) + '%';
+            particle.style.animationDelay = Math.random() * 6 + 's';
+            particle.style.animationDuration = (4 + Math.random() * 4) + 's';
+            document.body.appendChild(particle);
+        }
+    }
+
+    // Método para configurar o clique de pausa/play
+    setupEventListeners() {
+        // Usei uma "arrow function" () => {} para que o "this" continue se referindo à classe
+        this.cube.addEventListener('click', () => {
+            if (this.isPaused) {
+                this.cube.style.animationPlayState = 'running';
+                this.isPaused = false;
             } else {
-                cube.style.animationPlayState = 'paused';
-                isPaused = true;
-                console.log('⏸️ Cubo pausado');
+                this.cube.style.animationPlayState = 'paused';
+                this.isPaused = true;
             }
         });
-
-
-        // Cria as partículas quando a página carrega
-        window.addEventListener('load', createParticles);
-
-      //  // Muda o conteúdo das faces periodicamente
-         // const alternativeNames = [
-            //  'Cosmic Cat', 'Digital Dragon', 'Cyber Punk', 'Meta Monkey',
-            //  'Space Whale', 'Neon Tiger', 'Quantum Bird', 'Pixel Phoenix',
-            //  'Ghost Rider', 'Crystal Wolf', 'Fire Fox', 'Ice Bear'
-       //   ];
-
-
-         //setInterval(() => {
-            // Só muda se não estiver pausado
-            // if (!isPaused) {
-               //  const faces = document.querySelectorAll('.cube-face');
-               //  faces.forEach(face => {
-               //      const randomName = alternativeNames[Math.floor(Math.random() * alternativeNames.length)];
-               //      face.textContent = randomName;
-              //   });
-            // }
-       //  }, 12000); // Muda a cada 12 segundos
+    }
+}
