@@ -473,8 +473,8 @@
 }
 
 .container-fluid {
-    max-width: 1200px;
-    margin: 0 auto;
+    /*max-width: 1200px;*/
+    margin: 0;
     padding: 0;
     --bs-gutter-x: 0 !important;
 }

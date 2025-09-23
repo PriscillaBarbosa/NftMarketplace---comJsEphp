@@ -2,14 +2,11 @@
     <div class="row justify-content-center py-5">
         <div class="col-md-6">
             <div class="container">
-
-            
                 <div class="card">
                     <div class="card-header">
                         <h4 class="form-titulo d-flex justify-content-center py-4"><?php echo $page_title ?? 'Cadastro'; ?></h4>
                     </div>
                     <div class="card-body">
-
                     <!--mostrar erros se houver -->
                     <?php if (!empty($errors)): ?>
                         <div class="alert alert-danger">
