@@ -5,6 +5,9 @@ ARQUIVO: public/index.php
 -->
 
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 // Servir arquivos estáticos para o servidor embutido do PHP
 if (php_sapi_name() === 'cli-server') {
@@ -26,6 +29,7 @@ require_once '../src/Core/Database.php';
 require_once '../src/Controllers/HomeController.php';
 require_once '../src/Controllers/RegisterController.php';
 require_once '../src/Controllers/NFTController.php'; 
+require_once '../src/Controllers/AuthController.php';
 
 // Inicializar o roteador
 $router = new Router();
@@ -35,6 +39,9 @@ $router->get('/', 'HomeController@index');
 $router->get('/home', 'HomeController@index');
 $router->get('/register', 'RegisterController@index');        // ← nova rota (mostra o form)
 $router->post('/register', 'RegisterController@store');       // ← nova rota (processa os dados)
+$router->get('/login', 'AuthController@index');
+$router->post('/login/processar', 'AuthController@login');
+$router->get('/logout', 'AuthController@logout');
 // Novas rotas para NFTs
 $router->get('/nft', 'NFTController@index');        // Galeria
 $router->get('/nfts', 'NFTController@index');       // Alternativa

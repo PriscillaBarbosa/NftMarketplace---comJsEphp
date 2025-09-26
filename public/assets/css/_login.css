@@ -1,0 +1,7 @@
+.container-body {
+    background: var(--fundo-login-gradiente);
+}
+
+.login-titulo {
+    color: red;
+}
