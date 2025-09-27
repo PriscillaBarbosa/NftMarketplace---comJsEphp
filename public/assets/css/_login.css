@@ -1,7 +1,11 @@
 .container-body {
-    background: var(--fundo-login-gradiente);
-}
+    background-image: url("../img/1300wdefault.png");
+    min-height: 100vh;
+}   
 
-.login-titulo {
-    color: red;
+.form-login {
+    width: 24.5rem;
+    max-width: 24.5rem;
+    padding: 0.06rem;
+    align-items: flex-start;
 }

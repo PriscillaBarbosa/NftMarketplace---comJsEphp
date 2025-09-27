@@ -1,8 +1,8 @@
 /******variaveis de cor******/
 
 :root {
-
-    --fundo-bg-gradiente: linear-gradient(to right, #0F172B, #0F172B 50%, #1C398E);
+    --fundo-login-gradiente: linear-gradient(#0f172b 0%, #1c398e 50%, #59168b 100%);
+    --fundo-bg-gradiente: linear-gradient(to right, #0F172B, #0F172B 50%, #1C398E 100%);
     --fundo-numbers-gradiente: linear-gradient(to right, #0F172B, #1D293D, #0F172B);
     --fundo-bg-feature: #0f172b;
     --fundo-bg-titulo: #0b3b32;

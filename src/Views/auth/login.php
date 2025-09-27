@@ -4,7 +4,7 @@
     <h1 class="login-titulo">Login do Sistema</h1>
     <p>Esta é a página de login. Agora você pode começar a estilizá-la!</p>
     
-    <form action="/login/processar" method="POST">
+    <form action="/login/processar" method="POST" class="form-login d-flex flex-column">
         <div class="form-group">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com">

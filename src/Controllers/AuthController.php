@@ -1,16 +1,13 @@
 <?php
-// app/controllers/AuthController.php
 
 class AuthController {
 
-    /**
-     * Este método é chamado pela rota '/login'.
-     * Sua única responsabilidade agora é carregar a view.
-     */
     public function index() {
-        // Apenas carrega o arquivo HTML da view.
-        // src/Controllers/AuthController.php - LINHA 12
+       
+        $title = 'Login | NFT Marketplace';
+        $view = 'auth/login'; 
 
-        require_once ROOT_PATH . '/src/Views/auth/login.php';
+        // 2. Chama o layout ESPECÍFICO para autenticação
+        require_once ROOT_PATH . '/src/Views/layouts/auth_layout.php'; // <--- MUDANÇA AQUI!
     }
 }
