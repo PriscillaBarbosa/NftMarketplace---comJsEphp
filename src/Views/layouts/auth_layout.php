@@ -16,7 +16,7 @@
         <?php include ROOT_PATH . "/src/Views/{$view}.php"; ?>
     </main>
     
-    <script src="/assets/js/components/validation-form.js"></script>
+    <script type="module" src="/assets/js/main.js"></script>
 
 </body>
 </html>

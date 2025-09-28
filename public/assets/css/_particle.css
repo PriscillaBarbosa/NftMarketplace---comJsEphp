@@ -1,0 +1,20 @@
+/* Estilo das partículas */
+ .particle {
+            position: absolute;
+            width: 4px !important;
+            height: 4px !important;
+            background: #00ccff;
+            border-radius: 50%;
+            animation: float 6s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+                opacity: 0.5;
+            }
+            50% {
+                transform: translateY(-100px) rotate(180deg);
+                opacity: 1;
+            }
+        }

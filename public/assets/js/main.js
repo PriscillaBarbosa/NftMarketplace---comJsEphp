@@ -1,3 +1,5 @@
+import createParticles from "./components/particles.js";
+
 
 // Configurações globais
 const App = {
@@ -10,6 +12,7 @@ const App = {
         this.initComponents();
         this.initScrollReveal();
         this.initSearch();
+        this.initParticles();
     },
 
     initSearch() {
@@ -28,9 +31,20 @@ const App = {
         }
     },
 
+    //método para inicializar as partículas
+    initParticles() {
+        const particleContainer = document.querySelector('.container-body');
+
+        if (particleContainer) {
+            console.log('✅ Container encontrado! Criando partículas...');
+            createParticles(particleContainer, 30);
+            console.log('particulas inicializadas');
+        }
+    },
+
     // Inicializa componentes (SEM ERRO)
     initComponents() {
-        this.components.tema = new trocarTema('claroBtn'); 
+       // this.components.tema = new trocarTema('claroBtn'); 
 
         const cubeElement = document.querySelector('#hero-cube');
         if (cubeElement) {

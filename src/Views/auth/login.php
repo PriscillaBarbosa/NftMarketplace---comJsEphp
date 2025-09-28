@@ -26,10 +26,10 @@
                     Lembrar de mim
                 </label>
             </div>-->
-            <button class="btn-entrar mt-4" type="submit">Entrar</button>
+            <button class="btn-entrar mt-4" type="submit" id="login-entrar">Entrar</button>
             <div class="d-flex flex-column mt-4 align-items-center justify-content-center">
                 <p class="login-cadastre mb-0">Não tem uma conta?</p>
-                <span class="login-cadastre"><strong>Cadastre-se</strong></span>
+                <a href="/register" class="login-cadastre"><strong>Cadastre-se</strong></a>
             </div>
         </form>
     </div>

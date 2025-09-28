@@ -1,7 +1,9 @@
 .container-body {
-    background-image: url("../img/1300wdefault.png");
+    background: var(--fundo-bg-gradiente);
     min-height: 100vh;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 
 }   
 
