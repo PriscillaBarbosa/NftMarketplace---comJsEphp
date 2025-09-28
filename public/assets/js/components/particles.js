@@ -1,5 +1,4 @@
 
-
 export default function createParticles(container, count = 20) {
     if (!container) {
         console.error('O container para as partículas não foi encontrado.');
@@ -8,7 +7,7 @@ export default function createParticles(container, count = 20) {
 
     for (let i = 0; i < count; i++) {
         const particle = document.createElement('div');
-        particle.className = 'paticle';
+        particle.className = 'particle';
 
         particle.style.top = `${Math.random() * 100}%`;
         particle.style.left = `${60 + Math.random() * 40}%`;

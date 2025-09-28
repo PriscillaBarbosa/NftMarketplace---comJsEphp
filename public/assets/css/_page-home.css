@@ -89,10 +89,19 @@
             margin-right: 4rem;
 
             .btn-compre-agora {
-                background-color: var(--texto-destaque);
                 color:var(--texto-destaque-preto);
                 font-weight: 700;
                 font-size: .7rem;
+                color: var(--texto-cor-principal);
+                display: flex;
+                height: 2.03125rem;
+                padding: 0.5rem 0.875rem 0.4375rem 0.875rem;
+                justify-content: center;
+                align-items: center;
+                align-self: stretch;
+                border-radius: 0.42188rem;
+                background: var(--cor-background-botao);
+                border:none !important;
             }
 
             .btn-lista-branca {

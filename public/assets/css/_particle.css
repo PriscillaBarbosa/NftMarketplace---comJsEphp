@@ -1,6 +1,6 @@
 /* Estilo das partículas */
  .particle {
-            position: absolute;
+            position: absolute !important;
             width: 4px !important;
             height: 4px !important;
             background: #00ccff;

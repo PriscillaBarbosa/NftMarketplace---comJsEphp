@@ -1,4 +1,4 @@
-class Cube3D {
+export default class Cube3D {
     constructor(selector) {
         // 1. Encontra o cubo usando o seletor passado pelo main.js
         this.cube = document.querySelector(selector);

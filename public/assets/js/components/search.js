@@ -1,13 +1,11 @@
-// ==============================================
-// ARQUIVO: assets/js/components/search.js
-// ==============================================
+
 
 class NFTSearch {
     constructor(options = {}) {
         this.options = {
             searchInputId: 'searchInput',
             gridSelector: '.nft-grid',
-            cardSelector: '.card.nft-card',  // Ajustado para sua estrutura
+            cardSelector: '.card.nft-card',  
             noResultsSelector: '#noResults',
             statsSelector: '#searchStats', 
             countSelector: '#resultCount',

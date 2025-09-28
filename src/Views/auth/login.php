@@ -2,7 +2,11 @@
 
 <div class="container-body d-flex justify-content-center align-items-center">
     <div class="box-login d-flex justify-content-center align-items-center">
-        <h1 class="login-titulo">Lobix</h1>
+        <img src="assets/img/mascote/mascote-happy.svg" alt="Mascote">
+        <div class="d-flex">
+            <img src="assets/img/Margin.svg" alt="Símbolo" class="simbolo mb-0 pb-2">
+            <h1 class="login-titulo">Shibu</h1>
+        </div>
         <h5 class="login-subtitulo pb-2">Entre na sua conta</h5>
         <form action="/login/processar" method="POST" class="form-login d-flex flex-column">
             <div class="form-group d-flex flex-column">
@@ -26,6 +30,7 @@
                     Lembrar de mim
                 </label>
             </div>-->
+            <a href="/password/forgot" class="esqueceu-senha d-flex justify-content-end mt-2">Esqueceu senha?</a>
             <button class="btn-entrar mt-4" type="submit" id="login-entrar">Entrar</button>
             <div class="d-flex flex-column mt-4 align-items-center justify-content-center">
                 <p class="login-cadastre mb-0">Não tem uma conta?</p>

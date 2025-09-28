@@ -1,4 +1,8 @@
 import createParticles from "./components/particles.js";
+import initTogglePassword from "./components/togglePassword.js";
+import Cube3D from "./components/cube3d.js";
+import initContadorAnimado from "./components/numbers.js";
+import fade from "./components/fade.js";
 
 
 // Configurações globais
@@ -40,7 +44,21 @@ const App = {
             createParticles(particleContainer, 30);
             console.log('particulas inicializadas');
         }
+
+        initTogglePassword() 
+
+        const cubeElement = document.querySelector('#hero-cube');
+        if (cubeElement) {
+           
+            new Cube3D('#hero-cube'); 
+            console.log('✅ Cubo 3D inicializado a partir do módulo.');
+        }
+
+        initContadorAnimado()
+        fade()
     },
+
+    
 
     // Inicializa componentes (SEM ERRO)
     initComponents() {

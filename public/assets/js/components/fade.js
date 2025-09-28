@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+export default function fade() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -11,5 +11,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.feature-section .fade-up').forEach(el => {
         observer.observe(el);
     });
-});
-
+}

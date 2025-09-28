@@ -42,6 +42,7 @@ $router->post('/register', 'RegisterController@store');       // ← nova rota (
 $router->get('/login', 'AuthController@index');
 $router->post('/login/processar', 'AuthController@login');
 $router->get('/logout', 'AuthController@logout');
+$router->get('/password/forgot', 'AuthController@forgotPasswordPage');
 // Novas rotas para NFTs
 $router->get('/nft', 'NFTController@index');        // Galeria
 $router->get('/nfts', 'NFTController@index');       // Alternativa

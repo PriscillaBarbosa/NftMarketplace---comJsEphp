@@ -27,6 +27,8 @@
    font-style: normal;
    font-weight: 400;
    line-height: 1.97rem;
+   font-family: var(--fonte-titulos);
+   letter-spacing: 1px;
    background: var(--cor-gradiente-marca);
    background-clip: text;
    -webkit-background-clip: text;
@@ -34,13 +36,20 @@
 }
 
 .login-subtitulo,
-.login-cadastre {
+.login-cadastre,
+.esqueceu-senha,
+.login-esqueci  {
     color: var(--cor-texto-destaque);
     text-align: center;
     font-size: 0.82031rem;
     font-style: normal;
     font-weight: var(--font-weight-400, 400);
     line-height: var(--line-height-21, 1.3125rem); 
+    text-decoration: none;
+}
+
+.esqueceu-senha {
+    font-size: 0.7rem;
 }
 
 .form-group > label {
@@ -105,7 +114,7 @@ input {
     align-self: stretch;
     border-radius: 0.42188rem;
     background: var(--cor-background-botao);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+    border:none !important;
 }
 
 .login-cadastre {
@@ -115,4 +124,8 @@ input {
 .login-cadastre:hover {
     color: var(--texto-cor-principal);
     font-size: .8rem;
+}
+
+.login-esqueci {
+    text-decoration: none;
 }

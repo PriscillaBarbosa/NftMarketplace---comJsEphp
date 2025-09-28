@@ -1,32 +1,43 @@
-document.addEventListener('DOMContentLoaded', () =>  {
+
+export default function initContadorAnimado() { 
     const cards = document.querySelectorAll('.anima-card');
 
-    const animarContador = (el) => {
-        const valorFinal = parseInt(el.getAttribute('data-numero'));
-        let valorAtual = 0;
-        const duracao = 4000;
-        const intervalo = 20;
-        const incremento = Math.ceil(valorFinal / (duracao / intervalo ));
+    if (cards.length === 0) {
+        return;
+    }
 
-        clearInterval(el._contadorTimes); //limpa animação
-        el.textContent = '0'; // reinicia o número visível
+    const animarContador = (el) => {
+        const valorFinal = parseInt(el.getAttribute('data-numero'), 10);
+        let valorAtual = 0;
+        const duracao = 2000;
+        const intervalo = 20;
+        const incremento = Math.ceil(valorFinal / (duracao / intervalo));
+
+        clearInterval(el._contadorTimer);
+        el.textContent = '0';
 
         el._contadorTimer = setInterval(() => {
-            valorAtual +=incremento;
+            valorAtual += incremento;
             if (valorAtual >= valorFinal) {
                 valorAtual = valorFinal;
                 clearInterval(el._contadorTimer);
             }
-            el.textContent = valorAtual.toLocaleString('pt-BR')
+            el.textContent = valorAtual.toLocaleString('pt-BR');
         }, intervalo);
     };
 
-    const observer = new IntersectionObserver((entradas) => {
+    const observer = new IntersectionObserver((entradas, obs) => {
         entradas.forEach(entrada => {
             if (entrada.isIntersecting) {
-                entrada.target.classList.add('show'); //anima visualmente
-                const numero = entrada.target.querySelector('.numero-contador');
-                animarContador(numero); //reinicia a contagem
+                const cardElement = entrada.target;
+                cardElement.classList.add('show');
+
+                const numeroEl = cardElement.querySelector('.numero-contador');
+                if (numeroEl) {
+                    animarContador(numeroEl);
+                }
+                
+                obs.unobserve(cardElement);
             }
         });
     }, { threshold: 0.6 });
@@ -34,4 +45,5 @@ document.addEventListener('DOMContentLoaded', () =>  {
     cards.forEach(card => {
         observer.observe(card);
     });
-});
+}
+
