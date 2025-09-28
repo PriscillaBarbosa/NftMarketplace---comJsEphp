@@ -50,8 +50,12 @@
 --tag-preco: #05df72;
 --tag-favoritos: rgb(163, 9, 9);
 
-/****tema claro****/
---temaClaro-texto: black;
---temaClaro-bg: white;
-
+/****login*****/
+--cor-borda-login: var(--stroke-weight-1, 1px) solid var(--color-cyan-4320, rgba(0, 184, 219, 0.20));
+--cor-gradiente-marca: linear-gradient(90deg, var(--color-cyan-47, #00D3F2) 0%, var(--color-violet-74, #C27AFF) 100%);
+--cor-texto-destaque: var(--www-figma-com-malibu-70, var(--color-cyan-6670, rgba(83, 234, 253, 0.70)));
+--cor-titulo-inputs:  var(--www-figma-com-onahau, var(--color-grey-90, #CEFAFE));
+--cor-background-inputs: var(--color-black-30, rgba(0, 0, 0, 0.30));
+--cor-background-botao: linear-gradient(90deg, var(--color-cyan-36, #0092B8) 0%, var(--color-violet-52, #9810FA) 100%);
+--cor-borda-inputs: var(--stroke-weight-1, 1px) solid var(--color-cyan-4330, rgba(0, 184, 219, 0.30));
 }

@@ -1,11 +1,116 @@
 .container-body {
     background-image: url("../img/1300wdefault.png");
     min-height: 100vh;
+    background-size: cover;
+
 }   
 
-.form-login {
+.box-login {
+    border: 2px solid red;
     width: 24.5rem;
+    min-height: 33rem;
     max-width: 24.5rem;
     padding: 0.06rem;
-    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 0.79688rem;
+    border: var(--cor-borda-login);
+    background: var(--color-black-20, rgba(0, 0, 0, 0.20));
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12px);
+}
+
+.login-titulo {
+   text-align: center;
+   font-size: 1.6rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.97rem;
+   background: var(--cor-gradiente-marca);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.login-subtitulo,
+.login-cadastre {
+    color: var(--cor-texto-destaque);
+    text-align: center;
+    font-size: 0.82031rem;
+    font-style: normal;
+    font-weight: var(--font-weight-400, 400);
+    line-height: var(--line-height-21, 1.3125rem); 
+}
+
+.form-group > label {
+    flex: 1 0 0;
+    color: var(--cor-titulo-inputs);
+    font-size: 0.76875rem;
+    font-style: normal;
+    font-weight: var(--font-weight-400, 400);
+    line-height: var(--line-height-12_25, 0.76563rem);
+}
+
+input {
+    height: 1.96875rem;
+    align-self: stretch;
+    border-radius: 0.42188rem;
+    border: var(--cor-borda-inputs);
+    background: var(--cor-background-inputs);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.login-input-email,
+.login-input-senha {
+    position: relative;
+}
+
+.componente-login-esquerda {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: absolute;
+    left: 0.65625rem;
+    top: 0.54688rem;
+}
+
+.componente-login-direita {
+    width: 0.875rem; 
+    height: 0.875rem; 
+    position: absolute;
+    right: 0.65625rem; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;  
+}
+
+.input::-webkit-input-placeholder {
+    color: var(--cor-texto-destaque);
+    font-size: .7rem;
+}
+
+.input::placeholder {
+    color: var(--cor-texto-destaque)!important;
+    font-size: .7rem;
+}
+
+.btn-entrar {
+    color: var(--texto-cor-principal);
+    display: flex;
+    height: 2.03125rem;
+    padding: 0.5rem 0.875rem 0.4375rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 0.42188rem;
+    background: var(--cor-background-botao);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+}
+
+.login-cadastre {
+    margin-left: .5rem;
+}
+
+.login-cadastre:hover {
+    color: var(--texto-cor-principal);
+    font-size: .8rem;
 }
