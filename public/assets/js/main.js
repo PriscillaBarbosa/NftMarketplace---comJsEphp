@@ -3,6 +3,9 @@ import initTogglePassword from "./components/togglePassword.js";
 import Cube3D from "./components/cube3d.js";
 import initContadorAnimado from "./components/numbers.js";
 import fade from "./components/fade.js";
+import observarElementos from "./components/animacao-observer.js";
+import NFTSearch from "./NFTSearch.js";
+
 
 
 // Configurações globais
@@ -33,6 +36,8 @@ const App = {
             });
             console.log('✅ Sistema de busca inicializado');
         }
+        
+          const nftSearchSystem = new NFTSearch();
     },
 
     //método para inicializar as partículas
@@ -84,7 +89,7 @@ const App = {
         }
     },
 
-    // Scroll Reveal com MUITO debug
+   
     initScrollReveal() {
         console.log('🚀 Iniciando scroll reveal...');
         
@@ -120,13 +125,15 @@ const App = {
             rootMargin: '0px 0px -50px 0px'
         });
 
-
+        
 
         // Observar elementos
         elementos.forEach(el => {
             observer.observe(el);
             console.log('👀 Observando elemento:', el);
         });
+
+        observarElementos('.card-beneficios, .card-beneficios2, .card-beneficios3', 'pulse-effect');
     },
     
     // Event Listeners globais

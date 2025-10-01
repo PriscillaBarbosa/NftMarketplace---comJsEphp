@@ -27,11 +27,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
         
         
-        <script src="/assets/js/components/pulse.js"></script>
+       
         <script src="/assets/js/components/validation-form.js"></script>
         <script src="/assets/js/components/tema-claro.js"></script>
-        <script src="/assets/js/components/search.js"></script>
-        <script src="/assets/js/components/particles.js"></script>
+        
         <script type="module" src="/assets/js/main.js"></script>
 
 </body>
