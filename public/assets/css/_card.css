@@ -114,16 +114,28 @@
 }
 
 .ver-mais {
-    background: var(--texto-destaque);
-    color: var(--fundo-bg-feature);
+    background: var(--cor-background-botao);
+    color: var(--texto-cor-principal);
     font-weight: 700;
+    
+    &:hover {
+        background: var(--texto-destaque);
+        color: var(--texto-cor-principal);
+    }
+
 }
 
 .ver-todos {
-    background: var(--texto-destaque);
+    background: var(--cor-background-botao);
+    border: 1px solid transparent;
     font-family: var(--fonte-titulos);
-    color: var(--fundo-bg-feature);
+    color: var(--texto-cor-principal);
     font-weight: 700;
+
+    &:hover {
+        background: var(--texto-destaque);  
+        color: var(--texto-cor-principal);
+    }
 }
 
 /*cards beneficios */

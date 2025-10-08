@@ -4,7 +4,7 @@ import Cube3D from "./components/cube3d.js";
 import initContadorAnimado from "./components/numbers.js";
 import fade from "./components/fade.js";
 import observarElementos from "./components/animacao-observer.js";
-import NFTSearch from "./NFTSearch.js";
+import NFTSearch from "./components/NFTSearch.js";
 
 
 

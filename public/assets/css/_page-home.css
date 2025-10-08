@@ -102,6 +102,10 @@
                 border-radius: 0.42188rem;
                 background: var(--cor-background-botao);
                 border:none !important;
+
+                &:hover {
+                    background: var(--btn-hover);
+                }
             }
 
             .btn-lista-branca {
