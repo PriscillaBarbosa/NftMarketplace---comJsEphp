@@ -1,11 +1,6 @@
-<!-- 
-================================
-ARQUIVO: src/Controllers/HomeController.php
-================================
--->
 
 <?php
-class HomeController {
+class HomeController extends Controller {
     public function index() {
         // Dados para a view
         $data = [
@@ -16,7 +11,8 @@ class HomeController {
         ];
         
         // Renderizar a view
-        $this->render('home/index', $data);
+        //$this->render('home/index', $data);
+        $this->view('home/index', $data);
     }
     
     private function getFeaturedNFTs() {
@@ -92,19 +88,19 @@ class HomeController {
         ];
     }
     
-    private function render($view, $data = []) {
-    extract($data);
+    //private function render($view, $data = []) {
+    //extract($data);
     
     // Definir qual view será incluída no layout
-    $view = $view; // já está correto
+    //$view = $view; // já está correto
     
     // Incluir o layout principal que contém o CSS
-    $layoutPath = "../src/Views/layouts/app.php";
+    //$layoutPath = "../src/Views/layouts/app.php";
     
-    if (file_exists($layoutPath)) {
-        include $layoutPath;
-    } else {
-        echo "Layout não encontrado: {$layoutPath}";
-        }
-    }
+   // if (file_exists($layoutPath)) {
+     //   include $layoutPath;
+    //} else {
+    //    echo "Layout não encontrado: {$layoutPath}";
+    //    }
+    //}
 }

@@ -58,4 +58,9 @@
 --cor-background-inputs: var(--color-black-30, rgba(0, 0, 0, 0.30));
 --cor-background-botao: linear-gradient(90deg, var(--color-cyan-36, #0092B8) 0%, var(--color-violet-52, #9810FA) 100%);
 --cor-borda-inputs: var(--stroke-weight-1, 1px) solid var(--color-cyan-4330, rgba(0, 184, 219, 0.30));
+
+
+/****destaque****/
+--principal: #05df72;
+
 }

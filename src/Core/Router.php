@@ -12,18 +12,19 @@ class Router {
     }
     
     public function dispatch() {
+
         $method = $_SERVER['REQUEST_METHOD'];
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        
-        // Remover trailing slash
         $path = rtrim($path, '/') ?: '/';
         
         if (isset($this->routes[$method][$path])) {
             $handler = $this->routes[$method][$path];
             $this->handleRequest($handler);
         } else {
-            http_response_code(404);
-            echo "404 - Página não encontrada";
+ 
+            require_once ROOT_PATH . '/src/Controllers/ErrorController.php';
+            $errorController = new ErrorController();
+            $errorController->notFound();
         }
     }
     

@@ -222,12 +222,10 @@
     }
 }
 
-/* INTEGRAÇÃO COM BOOTSTRAP (se necessário) */
 .search-container .form-control.search-input {
     padding-right: 50px;
 }
 
-/* DESTACAR CARDS ENCONTRADOS (opcional) */
 .nft-card.search-match {
     border: 2px solid rgba(0, 255, 135, 0.3);
     box-shadow: 0 5px 20px rgba(0, 255, 135, 0.2);
@@ -254,7 +252,6 @@
     color: #00ff87;
 }
 
-
 .nft-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -273,7 +270,6 @@
     transform: translateY(-8px);
     box-shadow: 0 16px 48px rgba(0,0,0,0.15);
 }
-
 
 .nft-image {
     position: relative;

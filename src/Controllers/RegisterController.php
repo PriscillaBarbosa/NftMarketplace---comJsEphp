@@ -2,7 +2,7 @@
 //Inclui a classe de validação
 require_once '../src/Utils/CpfValidator.php';
 
-class RegisterController 
+class RegisterController extends Controller
 {
     /**
      * Exibe o formulário de registro
@@ -17,7 +17,8 @@ class RegisterController
             'old_data' => [], //Para manter dados preenchidos
         ];
 
-        $this->render('register/index', $data);
+        //$this->render('register/index', $data);
+        $this->view('register/index', $data); 
     }
 
     /**

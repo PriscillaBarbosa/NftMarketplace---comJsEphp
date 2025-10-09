@@ -1,5 +1,5 @@
 <?php
-class NFTController {
+class NFTController extends Controller {
     public function index() {
 
         // Dados para a galeria de NFTs
@@ -11,7 +11,8 @@ class NFTController {
         ];
         
         // Renderizar a view da galeria
-        $this->render('nfts/index', $data);
+        //$this->render('nfts/index', $data);
+        $this->view('nfts/index', $data); 
     }
     
     public function show($id) {

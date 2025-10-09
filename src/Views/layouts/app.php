@@ -18,7 +18,8 @@
         
         <main>
             <?php // Inclui a view específica definida pelo Controller
-            include ROOT_PATH . "/src/Views/{$view}.php"; 
+            //include ROOT_PATH . "/src/Views/{$view}.php"; 
+            echo $content;
             ?>
         </main>
         

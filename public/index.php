@@ -1,8 +1,4 @@
-<!--
-================================
-ARQUIVO: public/index.php
-================================
--->
+
 
 <?php
 ini_set('display_errors', 1);
@@ -26,6 +22,7 @@ define('ROOT_PATH', dirname(__DIR__)); // Caminho raiz do projeto
 
 require_once '../src/Core/Router.php';
 require_once '../src/Core/Database.php';
+require_once '../src/Core/Controller.php';
 require_once '../src/Controllers/HomeController.php';
 require_once '../src/Controllers/RegisterController.php';
 require_once '../src/Controllers/NFTController.php'; 

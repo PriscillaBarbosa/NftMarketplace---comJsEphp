@@ -1,21 +1,29 @@
 <?php
 
-class AuthController {
+class AuthController extends Controller {
 
     public function index() {
-       
-        $title = 'Login | Shibu Marketplace';
-        $view = 'auth/login'; 
+        // 1. Definimos os dados que a view vai precisar (como o título)
+        $data = [
+            'title' => 'Login | Shibu Marketplace'
+        ];
 
-        // 2. Chama o layout ESPECÍFICO para autenticação
-        require_once ROOT_PATH . '/src/Views/layouts/auth_layout.php'; 
+        // 2. Trocamos o layout padrão ('app') pelo de autenticação
+        //    (O nome do arquivo sem a extensão .php)
+        $this->layout = 'auth_layout'; 
+
+        // 3. Chamamos o método view(), passando o nome da view e os dados
+        $this->view('auth/login', $data);
     }
 
     public function forgotPasswordPage() {
-
-        $title = 'Recuperar Senha | Shibu Marketplace';
-        $view = 'auth/forgot-password';
-
-        require_once ROOT_PATH . '/src/Views/layouts/auth_layout.php';
+        // Mesma lógica para a outra página
+        $data = [
+            'title' => 'Recuperar Senha | Shibu Marketplace'
+        ];
+        
+        $this->layout = 'auth_layout';
+        
+        $this->view('auth/forgot-password', $data);
     }
 }
