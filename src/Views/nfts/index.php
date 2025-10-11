@@ -105,15 +105,15 @@ various expressions and unique digital art pieces.</p>
                                     <span class="category-tag"><?= $nft['category'] ?></span>
                                 </div>
                             </div>
-
-                            <div class="nft-status">
-                                <span class="status-badge status-<?= $nft['status'] ?>"><?= ucfirst($nft['status']) ?></span>
+                            
+                            <div class="d-flex justify-content-between">
+                                <div class="nft-status">
+                                    <span class="status-badge status-<?= $nft['status'] ?>"><?= ucfirst($nft['status']) ?></span>
+                                </div>
+                                <div class="nft-price pe-1">
+                                    <span class="price"><?= $nft['price'] ?></span>
+                                </div>
                             </div>
-
-                            <div class="nft-price">
-                                <span class="price"><?= $nft['price'] ?></span>
-                            </div>
-
                             <div class="nft-actions">
                                 <button class="btn-buy" onclick="buyNFT(<?= $nft['id'] ?>)">
                                     Comprar Agora

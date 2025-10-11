@@ -171,7 +171,7 @@
 }
 
 .feature-section {
-    background: var(--fundo-bg-feature);
+    background: var(--fundo-bg-gradiente);
 
     .title-section {
         color: var(--texto-cor-principal);
@@ -199,7 +199,8 @@
     }
 }
 .section-beneficios {
-    background: var(--fundo-bg-feature);
+    background: var(--fundo-numbers-gradiente);
+    border-radius: 5px;
 
     .conteudo-beneficios {
         width: 80%;
@@ -229,6 +230,8 @@
 
 .comoComprar-section {
     background: var(--fundo-bg-feature);
+    border-radius: 5px;
+    margin-top: 3rem;
 
     .comoComprar-conteudo {
         width: 70%;

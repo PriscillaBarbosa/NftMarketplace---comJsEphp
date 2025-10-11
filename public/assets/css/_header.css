@@ -25,8 +25,6 @@
         font-weight: 400;
         line-height: 1.97rem;
         background: var(--cor-gradiente-marca);
-        background-clip: text;
-        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 }

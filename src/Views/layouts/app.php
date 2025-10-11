@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="tema-claro h-100">
+<body class="tema-claro">
     
         <?php include ROOT_PATH . '/src/Views/partials/header.php'; ?>
         

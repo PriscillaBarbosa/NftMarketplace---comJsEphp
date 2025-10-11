@@ -1,4 +1,4 @@
-<div class="container-fluid container-404 text-center">
+<div class="container-fluid container-404 text-center h-100">
     <h1 class="error-titulo pt-5 pb-3">Erro 404 - Oops! Página não encontrada.</h1>
     <p class="error-text mb-0">Mas fique tranquilo pois já estamos trabalhando para resolver.</p>
     <div class="error-container" style="max-width: 400px; margin: auto;">

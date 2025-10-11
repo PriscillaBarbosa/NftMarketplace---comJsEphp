@@ -18,7 +18,6 @@
     border: var(--cor-borda-login);
     background: var(--color-black-20, rgba(0, 0, 0, 0.20));
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(12px);
 }
 
 .login-titulo {
@@ -30,8 +29,6 @@
    font-family: var(--fonte-titulos);
    letter-spacing: 1px;
    background: var(--cor-gradiente-marca);
-   background-clip: text;
-   -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
 

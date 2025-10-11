@@ -4,12 +4,14 @@
 }
 
 .btn-comprar {
-    border: 1px solid var(--borda-destaque);
-    border-radius: 20px;
-    width:85%;
+    border: none;
+    background: var(--cor-background-botao);
+    border-radius: 5px;
+    width:50%;
+    color: var(--texto-cor-principal);
 
     &:hover {
-        background: var(--borda-destaque);
+        background: var(--btn-hover);
     }
 
     .fa-shopping-cart {

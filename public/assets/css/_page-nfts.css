@@ -19,9 +19,9 @@
 }
 
 .filters-section {
-    background: var(--fundo-bg-feature);
+    background: var( --fundo-numbers-gradiente);
+    border: none;
     padding: 20px 0;
-    border-bottom: 1px solid var(--borda-inputs);
     color: var(--texto-cor-principal)
 }
 
@@ -51,14 +51,16 @@
 }
 
 .filter-select,
-.form-control {
+.form-control,
+.search-input {
     padding: 8px 12px;
-    border: 2px solid var( --borda-inputs);
+    border: 2px solid var( --cor-borda-login);
     border-radius: 6px;
     background: var(--fundo-bg-input);
     cursor: pointer;
     color: var(--texto-cor-secundario);
 }
+
 
 .filter-btn {
     padding: 8px 16px;
@@ -86,6 +88,21 @@
 
 .pesquisar {
     position: relative;
+    border: 1px solid var(--cor-borda-login) !important;
+}
+
+.form-control:focus {
+    background: transparent !important;
+    color: var(--texto-cor-principal);
+}
+
+.pesquisar:focus-visible {
+    outline: none;
+}
+
+.search-input:focus {
+    box-shadow: none !important;
+    border-color: none !important;
 }
 
 .fa-search {
@@ -264,6 +281,7 @@
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid var(--borda-card-cinza);
+    background: var(--color-black-20, rgba(0, 0, 0, 0.20));
 }
 
 .nft-card:hover {
@@ -385,7 +403,7 @@
 }
 
 .price {
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--tag-preco);
 }
@@ -398,12 +416,12 @@
 
 .btn-buy {
     flex: 1;
-    padding: 12px;
+    padding: 6px;
     margin-bottom: 1rem;
-    background: transparent;
+    background: var(--cor-background-botao);
     color: var(--texto-cor-principal);
-    border: 1px solid var(--borda-destaque);
-    border-radius: 24px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
     transition: transform 0.2s ease;
@@ -423,6 +441,7 @@
     font-size: 1.2rem;
     transition: all 0.3s ease;
     color:var(--tag-favoritos);
+    margin-bottom: 1rem;
 }
 
 .btn-favorite:hover {
@@ -452,8 +471,9 @@
 
 .nft-grid {
     padding: 5rem 5rem;
-    background: var(--fundo-bg-feature);
+    background: var(--fundo-bg-gradiente);
     margin: 0;
+    border: none;
 }
 
 
@@ -473,6 +493,10 @@
     margin: 0;
     padding: 0;
     --bs-gutter-x: 0 !important;
+}
+
+.pagination-section {
+    background: var(--fundo-numbers-gradiente);
 }
 
 /*****Responsivo *****/

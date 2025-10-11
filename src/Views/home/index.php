@@ -154,7 +154,7 @@ ARQUIVO: src/Views/home/index.php
                 <div class="col-12 d-flex justify-content-center">
                 <?php foreach ($featured_nfts as $nft): ?>
                     <div class="card nft-card fade-up h-100 d-flex justify-content-center align-items-center mx-3">  
-                        <div class="position-relative">
+                        <div class="nft-box-img">
                             <div class="nft-image-container d-flex justify-content-center align-items-center m-4">
                                 <img src="<?= $nft['image'] ?>" class="rounded nft-image" alt="<?= $nft['title'] ?>">
                             </div>
@@ -164,23 +164,23 @@ ARQUIVO: src/Views/home/index.php
                             </div>
                         </div>
                         <div class="card-body p-2">
-                            <div class="d-flex justify-content-between align-items-center mx-3">
-                                <p class="card-title mb-0 pe-2"><?= $nft['title'] ?></p>
-                                <p class="preco mb-0"><?= $nft['price'] ?></p>
+                            <div class="d-flex flex-column justify-content-between align-items-center mx-3">
+                                <p class="card-title mb-0"><?= $nft['title'] ?></p>
+                                <p class="preco pe-2 mb-0"><?= $nft['price'] ?></p>
                             </div>
-                            <div class="d-flex align-items-center my-1">
+                            <div class="d-flex align-items-center justify-content-center my-1">
                                 <p class="codigo mb-0 me-2"><?= $nft['code'] ?></p>
                                 <span class="curtir">
                                     <i class="fas fa-heart"></i>
                                 </span>
                             </div>
-                            <div class="d-flex mb-4 align-items-center justify-content-between mx-3">
+                            <div class="d-flex mb-2 align-items-center justify-content-between mx-3">
                                 <span class="perfil d-flex justify-content-center align-items-center me-2"><?= $nft['perfil'] ?></span>
                                 <span class="status d-flex justify-content-center align-items-center"><?= $nft['status'] ?></span>
                             </div>
-                            <div class="d-flex justify-content-center align-items-center mb-3">
+                            <div class="d-flex justify-content-center align-items-center mb-1">
                                 <button class="btn btn-comprar">
-                                    <i class="fas fa-shopping-cart me-1"></i>
+                                    <i class="fas fa-shopping-cart me-1"></i> Comprar
                                 </button>
                             </div>
                         </div>
