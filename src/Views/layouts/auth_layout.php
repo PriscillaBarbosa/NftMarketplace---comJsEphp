@@ -12,7 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css"> 
 </head>
-<body class="auth-page tema-claro"> <main class="auth-container">
+<body class="auth-page tema-claro"> 
+    
+    <main class="auth-container">
         <?php include ROOT_PATH . "/src/Views/{$view}.php"; ?>
     </main>
     

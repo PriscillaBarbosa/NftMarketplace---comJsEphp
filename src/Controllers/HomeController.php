@@ -6,7 +6,7 @@ class HomeController extends Controller {
         $data = [
             'title' => 'NFT Marketplace - Home',
             'featured_nfts' => $this->getFeaturedNFTs(),
-            'preview_nfts' => $this->getPreviewNFTs(), //criando novo array de dados
+            'preview_nfts' => $this->getPreviewNFTs(), //novo array de dados
             'stats' => $this->getMarketplaceStats()
         ];
         
